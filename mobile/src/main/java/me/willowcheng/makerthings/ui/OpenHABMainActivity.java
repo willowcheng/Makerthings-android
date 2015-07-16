@@ -35,7 +35,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.speech.RecognizerIntent;
-import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -226,6 +226,7 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.openhab_toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // ProgressBar layout params inside the toolbar have to be done programmatically
         // because it doesn't work through layout file :-(
         mProgressBar = (ProgressBar) toolbar.findViewById(R.id.toolbar_progress_bar);
@@ -256,7 +257,8 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
         }
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
-        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_navigation_drawer,
+
+        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, toolbar,
                 R.string.app_name, R.string.app_name) {
             public void onDrawerClosed(View view) {
                 Log.d(TAG, "onDrawerClosed");

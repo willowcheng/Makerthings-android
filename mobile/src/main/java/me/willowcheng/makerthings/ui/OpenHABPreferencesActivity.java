@@ -59,7 +59,7 @@ public class OpenHABPreferencesActivity extends PreferenceActivity {
 	    Preference altUrlPreference = getPreferenceScreen().findPreference(Constants.PREFERENCE_ALTURL);
 	    Preference usernamePreference = getPreferenceScreen().findPreference(Constants.PREFERENCE_USERNAME);
 	    Preference passwordPreference = getPreferenceScreen().findPreference(Constants.PREFERENCE_PASSWORD);
-	    Preference versionPreference = getPreferenceScreen().findPreference(Constants.PREFERENCE_APPVERSION);
+//	    Preference versionPreference = getPreferenceScreen().findPreference(Constants.PREFERENCE_APPVERSION);
 	    urlPreference.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
 			@Override
 			public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -103,7 +103,7 @@ public class OpenHABPreferencesActivity extends PreferenceActivity {
 			}
 	    });
 	    updatePasswordPreferenceSummary(passwordPreference, null);
-	    updateTextPreferenceSummary(versionPreference, null);
+//	    updateTextPreferenceSummary(versionPreference, null);
 
         //fullscreen is not supoorted in builds < 4.4
         if( Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {

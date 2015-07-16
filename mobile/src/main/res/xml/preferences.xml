@@ -75,11 +75,11 @@
             android:ringtoneType="ringtone|notification"
             android:showSilent="true"
             android:title="@string/settings_ringtone"></RingtonePreference>
-        <EditTextPreference
-            android:enabled="false"
-            android:key="default_openhab_appversion"
-            android:persistent="false"
-            android:shouldDisableView="false"
-            android:title="@string/settings_openhab_appversion" />
+        <!--<EditTextPreference-->
+            <!--android:enabled="false"-->
+            <!--android:key="default_openhab_appversion"-->
+            <!--android:persistent="false"-->
+            <!--android:shouldDisableView="false"-->
+            <!--android:title="@string/settings_openhab_appversion" />-->
     </PreferenceCategory>
 </PreferenceScreen>
