@@ -319,7 +319,7 @@
     <string name="app_discoveryinbox_deviceunnamed">Unnamed device</string>
     <string name="app_discoveryinbox_ignore">Ignore</string>
     <string name="app_discoveryinbox_nothings">No new things</string>
-    <string name="app_name">openHAB</string>
+    <string name="app_name">Makerthings</string>
     <string name="app_notifications">Notifications</string>
     <string name="app_preferences_name">Settings</string>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/common_strings.xml -->
