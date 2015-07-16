@@ -8,18 +8,18 @@ package com.software.shell.fab;
 
 public final class R {
 	public static final class anim {
-		public static final int fab_fade_in = 0x7f040006;
-		public static final int fab_fade_out = 0x7f040007;
-		public static final int fab_jump_from_down = 0x7f040008;
-		public static final int fab_jump_from_right = 0x7f040009;
-		public static final int fab_jump_to_down = 0x7f04000a;
-		public static final int fab_jump_to_right = 0x7f04000b;
-		public static final int fab_roll_from_down = 0x7f04000c;
-		public static final int fab_roll_from_right = 0x7f04000d;
-		public static final int fab_roll_to_down = 0x7f04000e;
-		public static final int fab_roll_to_right = 0x7f04000f;
-		public static final int fab_scale_down = 0x7f040010;
-		public static final int fab_scale_up = 0x7f040011;
+		public static final int fab_fade_in = 0x7f050006;
+		public static final int fab_fade_out = 0x7f050007;
+		public static final int fab_jump_from_down = 0x7f050008;
+		public static final int fab_jump_from_right = 0x7f050009;
+		public static final int fab_jump_to_down = 0x7f05000a;
+		public static final int fab_jump_to_right = 0x7f05000b;
+		public static final int fab_roll_from_down = 0x7f05000c;
+		public static final int fab_roll_from_right = 0x7f05000d;
+		public static final int fab_roll_to_down = 0x7f05000e;
+		public static final int fab_roll_to_right = 0x7f05000f;
+		public static final int fab_scale_down = 0x7f050010;
+		public static final int fab_scale_up = 0x7f050011;
 	}
 	public static final class attr {
 		public static final int animation_onHide = 0x7f01002e;
@@ -43,59 +43,59 @@ public final class R {
 		public static final int type = 0x7f01001c;
 	}
 	public static final class color {
-		public static final int fab_material_amber_500 = 0x7f090021;
-		public static final int fab_material_amber_900 = 0x7f090022;
-		public static final int fab_material_black = 0x7f090023;
-		public static final int fab_material_blue_500 = 0x7f090024;
-		public static final int fab_material_blue_900 = 0x7f090025;
-		public static final int fab_material_blue_grey_500 = 0x7f090026;
-		public static final int fab_material_blue_grey_900 = 0x7f090027;
-		public static final int fab_material_brown_500 = 0x7f090028;
-		public static final int fab_material_brown_900 = 0x7f090029;
-		public static final int fab_material_cyan_500 = 0x7f09002a;
-		public static final int fab_material_cyan_900 = 0x7f09002b;
-		public static final int fab_material_deep_orange_500 = 0x7f09002c;
-		public static final int fab_material_deep_orange_900 = 0x7f09002d;
-		public static final int fab_material_deep_purple_500 = 0x7f09002e;
-		public static final int fab_material_deep_purple_900 = 0x7f09002f;
-		public static final int fab_material_green_500 = 0x7f090030;
-		public static final int fab_material_green_900 = 0x7f090031;
-		public static final int fab_material_grey_500 = 0x7f090032;
-		public static final int fab_material_grey_900 = 0x7f090033;
-		public static final int fab_material_indigo_500 = 0x7f090034;
-		public static final int fab_material_indigo_900 = 0x7f090035;
-		public static final int fab_material_light_blue_500 = 0x7f090036;
-		public static final int fab_material_light_blue_900 = 0x7f090037;
-		public static final int fab_material_light_green_500 = 0x7f090038;
-		public static final int fab_material_light_green_900 = 0x7f090039;
-		public static final int fab_material_lime_500 = 0x7f09003a;
-		public static final int fab_material_lime_900 = 0x7f09003b;
-		public static final int fab_material_orange_500 = 0x7f09003c;
-		public static final int fab_material_orange_900 = 0x7f09003d;
-		public static final int fab_material_pink_500 = 0x7f09003e;
-		public static final int fab_material_pink_900 = 0x7f09003f;
-		public static final int fab_material_purple_500 = 0x7f090040;
-		public static final int fab_material_purple_900 = 0x7f090041;
-		public static final int fab_material_red_500 = 0x7f090042;
-		public static final int fab_material_red_900 = 0x7f090043;
-		public static final int fab_material_teal_500 = 0x7f090044;
-		public static final int fab_material_teal_900 = 0x7f090045;
-		public static final int fab_material_white = 0x7f090046;
-		public static final int fab_material_yellow_500 = 0x7f090047;
-		public static final int fab_material_yellow_900 = 0x7f090048;
+		public static final int fab_material_amber_500 = 0x7f0e0021;
+		public static final int fab_material_amber_900 = 0x7f0e0022;
+		public static final int fab_material_black = 0x7f0e0023;
+		public static final int fab_material_blue_500 = 0x7f0e0024;
+		public static final int fab_material_blue_900 = 0x7f0e0025;
+		public static final int fab_material_blue_grey_500 = 0x7f0e0026;
+		public static final int fab_material_blue_grey_900 = 0x7f0e0027;
+		public static final int fab_material_brown_500 = 0x7f0e0028;
+		public static final int fab_material_brown_900 = 0x7f0e0029;
+		public static final int fab_material_cyan_500 = 0x7f0e002a;
+		public static final int fab_material_cyan_900 = 0x7f0e002b;
+		public static final int fab_material_deep_orange_500 = 0x7f0e002c;
+		public static final int fab_material_deep_orange_900 = 0x7f0e002d;
+		public static final int fab_material_deep_purple_500 = 0x7f0e002e;
+		public static final int fab_material_deep_purple_900 = 0x7f0e002f;
+		public static final int fab_material_green_500 = 0x7f0e0030;
+		public static final int fab_material_green_900 = 0x7f0e0031;
+		public static final int fab_material_grey_500 = 0x7f0e0032;
+		public static final int fab_material_grey_900 = 0x7f0e0033;
+		public static final int fab_material_indigo_500 = 0x7f0e0034;
+		public static final int fab_material_indigo_900 = 0x7f0e0035;
+		public static final int fab_material_light_blue_500 = 0x7f0e0036;
+		public static final int fab_material_light_blue_900 = 0x7f0e0037;
+		public static final int fab_material_light_green_500 = 0x7f0e0038;
+		public static final int fab_material_light_green_900 = 0x7f0e0039;
+		public static final int fab_material_lime_500 = 0x7f0e003a;
+		public static final int fab_material_lime_900 = 0x7f0e003b;
+		public static final int fab_material_orange_500 = 0x7f0e003c;
+		public static final int fab_material_orange_900 = 0x7f0e003d;
+		public static final int fab_material_pink_500 = 0x7f0e003e;
+		public static final int fab_material_pink_900 = 0x7f0e003f;
+		public static final int fab_material_purple_500 = 0x7f0e0040;
+		public static final int fab_material_purple_900 = 0x7f0e0041;
+		public static final int fab_material_red_500 = 0x7f0e0042;
+		public static final int fab_material_red_900 = 0x7f0e0043;
+		public static final int fab_material_teal_500 = 0x7f0e0044;
+		public static final int fab_material_teal_900 = 0x7f0e0045;
+		public static final int fab_material_white = 0x7f0e0046;
+		public static final int fab_material_yellow_500 = 0x7f0e0047;
+		public static final int fab_material_yellow_900 = 0x7f0e0048;
 	}
 	public static final class dimen {
-		public static final int fab_margin = 0x7f0a002d;
+		public static final int fab_margin = 0x7f0a000b;
 	}
 	public static final class drawable {
 		public static final int fab_plus_icon = 0x7f020053;
 	}
 	public static final class id {
-		public static final int BIG = 0x7f0b0013;
-		public static final int DEFAULT = 0x7f0b0014;
-		public static final int MINI = 0x7f0b0015;
-		public static final int mini = 0x7f0b0016;
-		public static final int normal = 0x7f0b000a;
+		public static final int BIG = 0x7f0f0013;
+		public static final int DEFAULT = 0x7f0f0014;
+		public static final int MINI = 0x7f0f0015;
+		public static final int mini = 0x7f0f0016;
+		public static final int normal = 0x7f0f000a;
 	}
 	public static final class styleable {
 		public static final int[] ActionButton = { 0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e };
