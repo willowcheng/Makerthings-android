@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
@@ -7,15 +7,19 @@
     android:paddingLeft="@dimen/widgetlist_item_left_margin"
     android:paddingRight="@dimen/widgetlist_item_right_margin"
     android:minHeight="50dp"
-    >
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/pic_nav_header"/>
     <TextView android:id="@+id/itemlabel"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:paddingLeft="8dp"
         android:textStyle="bold"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:paddingLeft="5dp"
         />
 
-</RelativeLayout><!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/layout-v21/openhabdrawer_header_item.xml -->
+</LinearLayout><!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/layout-v21/openhabdrawer_header_item.xml -->
