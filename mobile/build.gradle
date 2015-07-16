@@ -5,7 +5,7 @@ android {
     buildToolsVersion '21.1.2'
 
     defaultConfig {
-        applicationId "org.openhab.habdroid"
+        applicationId "me.willowcheng.makerthings"
         minSdkVersion 15
         targetSdkVersion 21
     }

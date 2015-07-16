@@ -30,7 +30,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <org.openhab.habdroid.ui.OpenHABViewPager
+    <me.willowcheng.makerthings.ui.OpenHABViewPager
             android:id="@+id/pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

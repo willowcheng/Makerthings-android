@@ -5,8 +5,8 @@
     <bool name="ga_autoActivityTracking">true</bool>
     <bool name="ga_reportUncaughtExceptions">true</bool>
     <integer name="ga_sessionTimeout">-1</integer>
-    <screenName name="org.openhab.habdroid.ui.OpenHABMainActivity">OpenHABMainActivity</screenName>
-    <screenName name="org.openhab.habdroid.ui.OpenHABWriteTagActivity">OpenHABWriteTagActivity</screenName>
-    <screenName name="org.openhab.habdroid.ui.OpenHABPreferencesActivity">OpenHABPreferencesActivity</screenName>
+    <screenName name="me.willowcheng.makerthings.ui.OpenHABMainActivity">OpenHABMainActivity</screenName>
+    <screenName name="me.willowcheng.makerthings.ui.OpenHABWriteTagActivity">OpenHABWriteTagActivity</screenName>
+    <screenName name="me.willowcheng.makerthings.ui.OpenHABPreferencesActivity">OpenHABPreferencesActivity</screenName>
 </resources>
 <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/xml/app_tracker.xml -->

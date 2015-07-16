@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.openhab.habdroid"
+    package="me.willowcheng.makerthings"
     android:versionCode="15"
     android:versionName="1.7.0.1" >
 
@@ -20,10 +20,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="org.openhab.habdroid.gcm.permission.C2D_MESSAGE"
+        android:name="me.willowcheng.makerthings.gcm.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="org.openhab.habdroid.gcm.permission.C2D_MESSAGE" />
+    <uses-permission android:name="me.willowcheng.makerthings.gcm.permission.C2D_MESSAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-feature
@@ -34,17 +34,17 @@
         android:required="false" />
 
     <application
-        android:name="org.openhab.habdroid.core.HABDroid"
+        android:name="me.willowcheng.makerthings.core.HABDroid"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/HABDroid.Light" >
         <activity
-            android:name="org.openhab.habdroid.ui.OpenHABPreferencesActivity"
+            android:name="me.willowcheng.makerthings.ui.OpenHABPreferencesActivity"
             android:label="@string/app_preferences_name" >
         </activity>
         <activity
-            android:name="org.openhab.habdroid.ui.OpenHABMainActivity"
+            android:name="me.willowcheng.makerthings.ui.OpenHABMainActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop" >
             <intent-filter>
@@ -69,41 +69,41 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.openhab.habdroid.ui.OpenHABWriteTagActivity"
+            android:name="me.willowcheng.makerthings.ui.OpenHABWriteTagActivity"
             android:label="@string/title_activity_openhabwritetag" >
         </activity>
         <activity
-            android:name="org.openhab.habdroid.ui.OpenHABInfoActivity"
+            android:name="me.willowcheng.makerthings.ui.OpenHABInfoActivity"
             android:label="@string/title_activity_openhabinfo" >
         </activity>
         <activity android:name="de.duenndns.ssl.MemorizingActivity" />
 
         <service
-            android:name="org.openhab.habdroid.core.OpenHABVoiceService"
+            android:name="me.willowcheng.makerthings.core.OpenHABVoiceService"
             android:exported="false" >
         </service>
 
         <receiver
-            android:name="org.openhab.habdroid.core.GcmBroadcastReceiver"
+            android:name="me.willowcheng.makerthings.core.GcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="org.openhab.habdroid" />
+                <category android:name="me.willowcheng.makerthings" />
             </intent-filter>
         </receiver>
-        <receiver android:name="org.openhab.habdroid.core.NotificationDeletedBroadcastReceiver" >
+        <receiver android:name="me.willowcheng.makerthings.core.NotificationDeletedBroadcastReceiver" >
             <intent-filter>
-                <action android:name="org.openhab.habdroid.notification.deleted" />
+                <action android:name="me.willowcheng.makerthings.notification.deleted" />
 
-                <category android:name="org.openhab.habdroid" />
+                <category android:name="me.willowcheng.makerthings" />
             </intent-filter>
         </receiver>
 
-        <service android:name="org.openhab.habdroid.core.GcmIntentService" />
+        <service android:name="me.willowcheng.makerthings.core.GcmIntentService" />
 
         <receiver
-            android:name="org.openhab.habdroid.ui.VoiceWidget"
+            android:name="me.willowcheng.makerthings.ui.VoiceWidget"
             android:label="@string/title_voice_widget" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

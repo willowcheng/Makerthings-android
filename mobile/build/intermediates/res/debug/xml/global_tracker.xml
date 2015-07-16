@@ -7,8 +7,8 @@
     <!-- Treat events as test events and don't send to google -->
     <bool name="ga_dryRun">false</bool>
     <!-- The screen names that will appear in reports -->
-    <string name="org.openhab.habdroid.ui.OpenHABMainActivity">OpenHABMainActivity</string>
-    <string name="org.openhab.habdroid.ui.OpenHABWriteTagActivity">OpenHABWriteTagActivity</string>
-    <string name="org.openhab.habdroid.ui.OpenHABPreferencesActivity">OpenHABPreferencesActivity</string>
+    <string name="me.willowcheng.makerthings.ui.OpenHABMainActivity">OpenHABMainActivity</string>
+    <string name="me.willowcheng.makerthings.ui.OpenHABWriteTagActivity">OpenHABWriteTagActivity</string>
+    <string name="me.willowcheng.makerthings.ui.OpenHABPreferencesActivity">OpenHABPreferencesActivity</string>
 </resources>
 <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/xml/global_tracker.xml -->

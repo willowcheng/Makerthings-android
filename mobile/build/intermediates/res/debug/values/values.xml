@@ -390,7 +390,7 @@
     <string name="info_write_tag_progress">Writing the tag</string>
     <string name="info_write_tag_unsupported">This device doesn\'t have NFC support :-(</string>
     <string name="mainmenu_openhab_clearcache">Clear images cache</string>
-    <string name="mainmenu_openhab_info">openHAB info</string>
+    <string name="mainmenu_openhab_info">Makerthings info</string>
     <string name="mainmenu_openhab_preferences">Settings</string>
     <string name="mainmenu_openhab_selectsitemap">Select default sitemap</string>
     <string name="mainmenu_openhab_writetag">Write NFC tag</string>

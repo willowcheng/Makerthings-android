@@ -7,7 +7,7 @@
   android:paddingRight="@dimen/widgetlist_item_right_margin"
     android:background="@drawable/list_selector"
         >
-<org.openhab.habdroid.util.MySmartImageView 
+<me.willowcheng.makerthings.util.MySmartImageView
         android:paddingTop="6dip" 
         android:paddingBottom="6dip" 
         android:layout_width="wrap_content"
