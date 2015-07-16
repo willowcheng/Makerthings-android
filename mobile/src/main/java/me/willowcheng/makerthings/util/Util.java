@@ -121,7 +121,7 @@ public class Util {
 //        if (PreferenceManager.getDefaultSharedPreferences(activity).getString(Constants.PREFERENCE_THEME, "dark").equals("dark")) {
 //            activity.setTheme(R.style.HABDroid_Dark);
 //        } else {
-            activity.setTheme(R.style.HABDroid_Light);
+            activity.setTheme(R.style.NavDrawerTheme);
 //        }
     }
 }

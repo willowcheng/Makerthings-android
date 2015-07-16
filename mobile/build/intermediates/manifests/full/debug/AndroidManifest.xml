@@ -38,15 +38,19 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/HABDroid.Light" >
+        android:theme="@style/AppTheme" >
         <activity
             android:name="me.willowcheng.makerthings.ui.OpenHABPreferencesActivity"
             android:label="@string/app_preferences_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.OpenHABMainActivity" />
         </activity>
         <activity
             android:name="me.willowcheng.makerthings.ui.OpenHABMainActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTop" >
+            android:launchMode="singleTop"
+            android:theme="@style/NavDrawerTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -71,10 +75,16 @@
         <activity
             android:name="me.willowcheng.makerthings.ui.OpenHABWriteTagActivity"
             android:label="@string/title_activity_openhabwritetag" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.OpenHABMainActivity" />
         </activity>
         <activity
             android:name="me.willowcheng.makerthings.ui.OpenHABInfoActivity"
             android:label="@string/title_activity_openhabinfo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.OpenHABMainActivity" />
         </activity>
         <activity android:name="de.duenndns.ssl.MemorizingActivity" />
 

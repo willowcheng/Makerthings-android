@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values-v21/themes.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Here we setting appcompat’s actionBarStyle -->
+        <item name="windowActionBar">true</item>
+
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+    </style>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
@@ -255,7 +266,7 @@
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation"/>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values-v21/themes.xml -->
     <eat-comment/>
-    <style name="HABDroid.Light" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <style name="NavDrawerTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="customMicIcon">@android:drawable/ic_btn_speak_now</item>
         <item name="widgetlistItemDivider">?android:dividerHorizontal</item>
         <item name="android:colorPrimary">#F44336</item>

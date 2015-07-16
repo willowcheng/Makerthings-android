@@ -15,6 +15,7 @@ package me.willowcheng.makerthings.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
@@ -26,7 +27,7 @@ import me.willowcheng.makerthings.R;
 import me.willowcheng.makerthings.util.MyAsyncHttpClient;
 import me.willowcheng.makerthings.util.Util;
 
-public class OpenHABInfoActivity extends Activity {
+public class OpenHABInfoActivity extends ActionBarActivity {
 
     private static final String TAG = "OpenHABInfoActivity";
     private TextView mOpenHABVersionText;
@@ -41,7 +42,7 @@ public class OpenHABInfoActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.d(TAG, "onCreate()");
-        Util.setActivityTheme(this);
+//        Util.setActivityTheme(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.openhabinfo);
         mAsyncHttpClient = new MyAsyncHttpClient(this);

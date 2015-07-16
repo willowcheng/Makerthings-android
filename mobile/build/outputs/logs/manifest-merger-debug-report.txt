@@ -99,118 +99,126 @@ ADDED from AndroidManifest.xml:32:9
 		ADDED from AndroidManifest.xml:34:13
 	android:name
 		ADDED from AndroidManifest.xml:33:13
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from AndroidManifest.xml:35:13
+	android:value
+		ADDED from AndroidManifest.xml:37:17
+	android:name
+		ADDED from AndroidManifest.xml:36:17
 activity#me.willowcheng.makerthings.ui.OpenHABMainActivity
-ADDED from AndroidManifest.xml:36:9
+ADDED from AndroidManifest.xml:39:9
 	android:label
-		ADDED from AndroidManifest.xml:38:13
+		ADDED from AndroidManifest.xml:41:13
 	android:launchMode
-		ADDED from AndroidManifest.xml:39:13
+		ADDED from AndroidManifest.xml:42:13
+	android:theme
+		ADDED from AndroidManifest.xml:43:13
 	android:name
-		ADDED from AndroidManifest.xml:37:13
+		ADDED from AndroidManifest.xml:40:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:40:13
-action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:41:17
-	android:name
-		ADDED from AndroidManifest.xml:41:25
-category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:42:17
-	android:name
-		ADDED from AndroidManifest.xml:42:27
-intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
 ADDED from AndroidManifest.xml:44:13
-action#android.nfc.action.NDEF_DISCOVERED
+action#android.intent.action.MAIN
 ADDED from AndroidManifest.xml:45:17
 	android:name
 		ADDED from AndroidManifest.xml:45:25
-category#android.intent.category.DEFAULT
+category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:46:17
 	android:name
 		ADDED from AndroidManifest.xml:46:27
-data
-ADDED from AndroidManifest.xml:47:17
-	android:scheme
-		ADDED from AndroidManifest.xml:47:23
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:49:13
-action#android.intent.action.VIEW
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
+ADDED from AndroidManifest.xml:48:13
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from AndroidManifest.xml:49:17
+	android:name
+		ADDED from AndroidManifest.xml:49:25
+category#android.intent.category.DEFAULT
 ADDED from AndroidManifest.xml:50:17
 	android:name
-		ADDED from AndroidManifest.xml:50:25
+		ADDED from AndroidManifest.xml:50:27
+data
+ADDED from AndroidManifest.xml:51:17
+	android:scheme
+		ADDED from AndroidManifest.xml:51:23
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:53:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:54:17
+	android:name
+		ADDED from AndroidManifest.xml:54:25
 category#android.intent.category.BROWSABLE
-ADDED from AndroidManifest.xml:53:17
+ADDED from AndroidManifest.xml:57:17
 	android:name
-		ADDED from AndroidManifest.xml:53:27
+		ADDED from AndroidManifest.xml:57:27
 activity#me.willowcheng.makerthings.ui.OpenHABWriteTagActivity
-ADDED from AndroidManifest.xml:58:9
-	android:label
-		ADDED from AndroidManifest.xml:60:13
-	android:name
-		ADDED from AndroidManifest.xml:59:13
-activity#me.willowcheng.makerthings.ui.OpenHABInfoActivity
 ADDED from AndroidManifest.xml:62:9
 	android:label
 		ADDED from AndroidManifest.xml:64:13
 	android:name
 		ADDED from AndroidManifest.xml:63:13
-activity#de.duenndns.ssl.MemorizingActivity
-ADDED from AndroidManifest.xml:66:9
-	android:name
-		ADDED from AndroidManifest.xml:66:19
-service#me.willowcheng.makerthings.core.OpenHABVoiceService
-ADDED from AndroidManifest.xml:67:9
-	android:exported
-		ADDED from AndroidManifest.xml:69:13
-	android:name
-		ADDED from AndroidManifest.xml:68:13
-receiver#me.willowcheng.makerthings.core.GcmBroadcastReceiver
-ADDED from AndroidManifest.xml:71:9
-	android:permission
-		ADDED from AndroidManifest.xml:73:13
-	android:name
-		ADDED from AndroidManifest.xml:72:13
-intent-filter#com.google.android.c2dm.intent.RECEIVE+me.willowcheng.makerthings
-ADDED from AndroidManifest.xml:74:13
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from AndroidManifest.xml:75:17
-	android:name
-		ADDED from AndroidManifest.xml:75:25
-category#me.willowcheng.makerthings
-ADDED from AndroidManifest.xml:76:17
-	android:name
-		ADDED from AndroidManifest.xml:76:27
-receiver#me.willowcheng.makerthings.core.NotificationDeletedBroadcastReceiver
-ADDED from AndroidManifest.xml:79:9
-	android:name
-		ADDED from AndroidManifest.xml:79:19
-intent-filter#me.willowcheng.makerthings+me.willowcheng.makerthings.notification.deleted
-ADDED from AndroidManifest.xml:80:13
-action#me.willowcheng.makerthings.notification.deleted
-ADDED from AndroidManifest.xml:81:17
-	android:name
-		ADDED from AndroidManifest.xml:81:25
-service#me.willowcheng.makerthings.core.GcmIntentService
-ADDED from AndroidManifest.xml:85:9
-	android:name
-		ADDED from AndroidManifest.xml:85:18
-receiver#me.willowcheng.makerthings.ui.VoiceWidget
-ADDED from AndroidManifest.xml:86:9
+activity#me.willowcheng.makerthings.ui.OpenHABInfoActivity
+ADDED from AndroidManifest.xml:69:9
 	android:label
-		ADDED from AndroidManifest.xml:87:13
+		ADDED from AndroidManifest.xml:71:13
 	android:name
-		ADDED from AndroidManifest.xml:86:19
+		ADDED from AndroidManifest.xml:70:13
+activity#de.duenndns.ssl.MemorizingActivity
+ADDED from AndroidManifest.xml:76:9
+	android:name
+		ADDED from AndroidManifest.xml:76:19
+service#me.willowcheng.makerthings.core.OpenHABVoiceService
+ADDED from AndroidManifest.xml:77:9
+	android:exported
+		ADDED from AndroidManifest.xml:79:13
+	android:name
+		ADDED from AndroidManifest.xml:78:13
+receiver#me.willowcheng.makerthings.core.GcmBroadcastReceiver
+ADDED from AndroidManifest.xml:81:9
+	android:permission
+		ADDED from AndroidManifest.xml:83:13
+	android:name
+		ADDED from AndroidManifest.xml:82:13
+intent-filter#com.google.android.c2dm.intent.RECEIVE+me.willowcheng.makerthings
+ADDED from AndroidManifest.xml:84:13
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from AndroidManifest.xml:85:17
+	android:name
+		ADDED from AndroidManifest.xml:85:25
+category#me.willowcheng.makerthings
+ADDED from AndroidManifest.xml:86:17
+	android:name
+		ADDED from AndroidManifest.xml:86:27
+receiver#me.willowcheng.makerthings.core.NotificationDeletedBroadcastReceiver
+ADDED from AndroidManifest.xml:89:9
+	android:name
+		ADDED from AndroidManifest.xml:89:19
+intent-filter#me.willowcheng.makerthings+me.willowcheng.makerthings.notification.deleted
+ADDED from AndroidManifest.xml:90:13
+action#me.willowcheng.makerthings.notification.deleted
+ADDED from AndroidManifest.xml:91:17
+	android:name
+		ADDED from AndroidManifest.xml:91:25
+service#me.willowcheng.makerthings.core.GcmIntentService
+ADDED from AndroidManifest.xml:95:9
+	android:name
+		ADDED from AndroidManifest.xml:95:18
+receiver#me.willowcheng.makerthings.ui.VoiceWidget
+ADDED from AndroidManifest.xml:96:9
+	android:label
+		ADDED from AndroidManifest.xml:97:13
+	android:name
+		ADDED from AndroidManifest.xml:96:19
 intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:88:13
+ADDED from AndroidManifest.xml:98:13
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:89:17
+ADDED from AndroidManifest.xml:99:17
 	android:name
-		ADDED from AndroidManifest.xml:89:25
+		ADDED from AndroidManifest.xml:99:25
 meta-data#android.appwidget.provider
-ADDED from AndroidManifest.xml:91:13
+ADDED from AndroidManifest.xml:101:13
 	android:resource
-		ADDED from AndroidManifest.xml:93:17
+		ADDED from AndroidManifest.xml:103:17
 	android:name
-		ADDED from AndroidManifest.xml:92:17
+		ADDED from AndroidManifest.xml:102:17
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.google.android.gms:play-services:6.5.87:18:5
