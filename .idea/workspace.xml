@@ -10,256 +10,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0e5a648-ca2f-4eaf-9200-b7f5939631fe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/Manifest$permission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/Manifest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$raw.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R$xml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/ConnectivityChangeReceiver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/GcmBroadcastReceiver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/GcmIntentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/HABDroid$TrackerName.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/HABDroid.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/NetworkConnectivityInfo$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/NetworkConnectivityInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/NotificationDeletedBroadcastReceiver$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/NotificationDeletedBroadcastReceiver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/OpenHABTracker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/OpenHABTracker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/OpenHABTrackerReceiver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/OpenHABVoiceService$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/OpenHABVoiceService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/OpenHABVoiceService$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/core/OpenHABVoiceService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABBinding.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABDiscoveryInbox.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABLinkedPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABNFCActionList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABNotification.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABSitemap$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABSitemap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABSitemapPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABWidget.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABWidgetDataSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/OpenHABWidgetMapping.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/thing/ThingType$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/thing/ThingType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/thing/ThingTypeChannel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/thing/ThingTypeChannelGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/thing/ThingTypeConfigParameter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/model/thing/ThingTypeProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/AnchorWebViewClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/BindingThingTypesAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/BindingThingTypesFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/BindingThingTypesFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OnWidgetSelectedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABBindingAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABBindingFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABBindingFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABBindingFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryFragment$4$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryFragment$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABFragmentPagerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABInfoActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABInfoActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABInfoActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABInfoActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$13$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$13$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABMainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABNotificationAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABNotificationFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABNotificationFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABNotificationFragment$OnFragmentInteractionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABNotificationFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABPreferencesActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABPreferencesActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABPreferencesActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABPreferencesActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABPreferencesActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABPreferencesActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABViewPager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$11$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$6$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetListFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetListFragment$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetListFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetListFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetListFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetListFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWidgetListFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWriteTagActivity$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWriteTagActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/OpenHABWriteTagActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/ScrollerCustomDuration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/StateRetainFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/VoiceWidget.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/drawer/OpenHABDrawerAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/drawer/OpenHABDrawerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/drawer/OpenHABDrawerItem$DrawerItemType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/drawer/OpenHABDrawerItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/widget/ColorPicker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/widget/ColorPickerDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/widget/ColorPickerDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/widget/OnColorChangedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/widget/SegmentedControlButton$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/widget/SegmentedControlButton$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/ui/widget/SegmentedControlButton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/AsyncServiceResolver$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/AsyncServiceResolver$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/AsyncServiceResolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/AsyncServiceResolverListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/ContinuingIntentService$ServiceHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/ContinuingIntentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MjpegInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MjpegStreamer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MjpegStreamer$DownloadImageTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MjpegStreamer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MyAsyncHttpClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MySSLSocketFactory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MySSLSocketFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MySmartImageView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MySmartImageView$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MySmartImageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MyWebImage$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MyWebImage$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/MyWebImage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/openhab/habdroid/util/Util.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/build/generated/source/buildConfig/debug/org/openhab/habdroid/BuildConfig.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/buildConfig/debug/me/willowcheng/makerthings/BuildConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/org/openhab/habdroid/Manifest.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/me/willowcheng/makerthings/Manifest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/org/openhab/habdroid/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/me/willowcheng/makerthings/R.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/androidTest/java/org/openhab/habdroid/ApplicationTest.java" afterPath="$PROJECT_DIR$/mobile/src/androidTest/java/me/willowcheng/makerthings/ApplicationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/core/ConnectivityChangeReceiver.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/core/ConnectivityChangeReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/core/GcmBroadcastReceiver.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/core/GcmBroadcastReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/core/GcmIntentService.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/core/GcmIntentService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/core/HABDroid.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/core/HABDroid.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/core/NetworkConnectivityInfo.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/core/NetworkConnectivityInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/core/NotificationDeletedBroadcastReceiver.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/core/NotificationDeletedBroadcastReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/core/OpenHABTracker.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/core/OpenHABTracker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/core/OpenHABTrackerReceiver.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/core/OpenHABTrackerReceiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/core/OpenHABVoiceService.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/core/OpenHABVoiceService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABBinding.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABBinding.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABDiscoveryInbox.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABDiscoveryInbox.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABItem.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABLinkedPage.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABLinkedPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABNFCActionList.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABNFCActionList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABNotification.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABNotification.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABSitemap.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABSitemap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABSitemapPage.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABSitemapPage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABWidget.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABWidget.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABWidgetDataSource.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABWidgetDataSource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/OpenHABWidgetMapping.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/OpenHABWidgetMapping.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/thing/ThingType.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/thing/ThingType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/thing/ThingTypeChannel.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/thing/ThingTypeChannel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/thing/ThingTypeChannelGroup.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/thing/ThingTypeChannelGroup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/thing/ThingTypeConfigParameter.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/thing/ThingTypeConfigParameter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/model/thing/ThingTypeProperty.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/model/thing/ThingTypeProperty.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/AnchorWebViewClient.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/AnchorWebViewClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/BindingThingTypesAdapter.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/BindingThingTypesAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/BindingThingTypesFragment.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/BindingThingTypesFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OnWidgetSelectedListener.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OnWidgetSelectedListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABBindingAdapter.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABBindingAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABBindingFragment.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABBindingFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABDiscoveryAdapter.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABDiscoveryAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABDiscoveryFragment.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABDiscoveryFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABDiscoveryInboxAdapter.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABDiscoveryInboxAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABDiscoveryInboxFragment.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABDiscoveryInboxFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABFragmentPagerAdapter.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABFragmentPagerAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABInfoActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABInfoActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABMainActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABMainActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABNotificationAdapter.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABNotificationAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABNotificationFragment.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABNotificationFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABPreferencesActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABViewPager.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABViewPager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABWidgetAdapter.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWidgetAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABWidgetListFragment.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWidgetListFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/OpenHABWriteTagActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/ScrollerCustomDuration.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/ScrollerCustomDuration.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/StateRetainFragment.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/StateRetainFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/VoiceWidget.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/VoiceWidget.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/drawer/OpenHABDrawerAdapter.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/drawer/OpenHABDrawerAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/drawer/OpenHABDrawerItem.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/drawer/OpenHABDrawerItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/widget/ColorPicker.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/widget/ColorPicker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/widget/ColorPickerDialog.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/widget/ColorPickerDialog.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/widget/OnColorChangedListener.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/widget/OnColorChangedListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/ui/widget/SegmentedControlButton.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/widget/SegmentedControlButton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/AsyncServiceResolver.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/AsyncServiceResolver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/AsyncServiceResolverListener.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/AsyncServiceResolverListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/Constants.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/Constants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/ContinuingIntentService.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/ContinuingIntentService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/MjpegInputStream.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/MjpegInputStream.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/MjpegStreamer.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/MjpegStreamer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/MyAsyncHttpClient.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/MyAsyncHttpClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/MySSLSocketFactory.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/MySSLSocketFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/MySmartImageView.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/MySmartImageView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/MyWebImage.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/MyWebImage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/openhab/habdroid/util/Util.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/Util.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wear/build/generated/source/buildConfig/debug/org/openhab/habdroid/BuildConfig.java" afterPath="$PROJECT_DIR$/wear/build/generated/source/buildConfig/debug/me/willowcheng/makerthings/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/de/duenndns/ssl/MemorizingTrustManager.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/de/duenndns/ssl/MemorizingTrustManager.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/generated/source/buildConfig/debug/me/willowcheng/makerthings/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/5.0.77/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-af/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-am/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-ar/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-be/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-bg/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-ca/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-cs/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-da/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-de/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-el/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-en-rGB/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-en-rIN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-es-rUS/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-es/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-et-rEE/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-fa/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-fi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-fr-rCA/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-fr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-hi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-hr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-hu/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-hy-rAM/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-in/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-it/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-iw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-ja/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-ka-rGE/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-km-rKH/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-ko/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-lo-rLA/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-lt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-lv/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-mn-rMN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-ms-rMY/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-nb/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-nl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-pl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-pt-rBR/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-pt-rPT/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-pt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-ro/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-ru/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-sk/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-sl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-sr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-sv/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-sw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-th/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-tl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-tr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-uk/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-v20/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-v21/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-vi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-zh-rCN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-zh-rHK/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-zh-rTW/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wear/build/intermediates/res/debug/values-zu/values.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/BuildConfig.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$style.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$style.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$styleable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$xml.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/util/Util.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/util/Util.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/mobile/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
@@ -267,59 +90,26 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug-unaligned.apk" afterPath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug.apk" afterPath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/mobile/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/de/duenndns/ssl/MemorizingTrustManager.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/de/duenndns/ssl/MemorizingTrustManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/activity_main_onepane.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/activity_main_onepane.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout-v21/activity_main_onepane.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout-v21/activity_main_onepane.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_main_onepane.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_main_onepane.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout-v21/activity_main_onepane.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout-v21/activity_main_onepane.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/activity_main_twopane.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/activity_main_twopane.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_main_twopane.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_main_twopane.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/xml/app_tracker.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/xml/app_tracker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/xml/app_tracker.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/xml/app_tracker.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/buildConfig/debug/me/willowcheng/makerthings/BuildConfig.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/buildConfig/debug/me/willowcheng/makerthings/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/com/google/android/gms/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/me/willowcheng/makerthings/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/me/willowcheng/makerthings/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/Util.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/Util.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build.gradle" afterPath="$PROJECT_DIR$/mobile/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/xml/global_tracker.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/xml/global_tracker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/xml/global_tracker.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/xml/global_tracker.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/mobile/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/mobile.iml" afterPath="$PROJECT_DIR$/mobile/mobile.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabdrawer_menuwithcount.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabdrawer_menuwithcount.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabdrawer_menuwithcount.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabdrawer_menuwithcount.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabdrawer_sitemap_item.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabdrawer_sitemap_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabdrawer_sitemap_item.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabdrawer_sitemap_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabnotificationlist_item.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabnotificationlist_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabnotificationlist_item.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabnotificationlist_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_chartitem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_chartitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_chartitem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_chartitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_coloritem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_coloritem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_coloritem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_coloritem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_genericitem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_genericitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_genericitem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_genericitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_groupitem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_groupitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_groupitem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_groupitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_imageitem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_imageitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_imageitem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_imageitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_rollershutteritem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_rollershutteritem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_rollershutteritem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_rollershutteritem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_sectionswitchitem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_sectionswitchitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_sectionswitchitem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_sectionswitchitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_sectionswitchitem_button.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_sectionswitchitem_button.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_sectionswitchitem_button.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_sectionswitchitem_button.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_selectionitem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_selectionitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_selectionitem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_selectionitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_setpointitem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_setpointitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_setpointitem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_setpointitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_slideritem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_slideritem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_slideritem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_slideritem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_switchitem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_switchitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_switchitem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_switchitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_textitem.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwidgetlist_textitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_textitem.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_textitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/xml/preferences.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/xml/preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values/themes.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/themes.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -337,15 +127,22 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Makerthings" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.7108433">
+            <state vertical-scroll-proportion="0.0">
               <caret line="75" column="66" selection-start-line="75" selection-start-column="66" selection-end-line="75" selection-end-column="66" />
               <folding />
             </state>
@@ -356,54 +153,92 @@
         <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
+      <file leaf-file-name="themes.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/themes.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.2">
-              <caret line="53" column="45" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.25301206">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ic_navigation_drawer.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/ic_navigation_drawer.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="themes.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values-v21/themes.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openhabicon.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabicon.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="OpenHABPreferencesActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openhabiconsmall.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabiconsmall.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openhab.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhab.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="preferences.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openhabicon_light.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabicon_light.png">
-          <provider selected="true" editor-type-id="images">
+      <file leaf-file-name="layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/layout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main_twopane.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_main_twopane.xml">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="values.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-v21/values.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.96">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -2028,7 +1863,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5748292923000" />
+        <entry key="$PROJECT_DIR$" value="5748294130000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2433,11 +2268,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-v21/values.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/mobile/build.gradle" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-v21/values.xml" />
+        <option value="$PROJECT_DIR$/mobile/build.gradle" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/values/themes.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/Util.java" />
       </list>
     </option>
   </component>
@@ -2464,7 +2302,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -2473,7 +2311,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages AndroidView="false" />
+      <hideEmptyPackages AndroidView="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -2500,9 +2338,23 @@
               <option name="myItemId" value="Makerthings" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wear" />
+              <option name="myItemId" value="Makerthings" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2517,6 +2369,14 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2547,6 +2407,20 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Makerthings" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -2565,16 +2439,52 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="me" />
+              <option name="myItemId" value="makerthings" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="willowcheng" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Makerthings" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="makerthings" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Makerthings" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="makerthings" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3079,14 +2989,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-v21/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.96">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/ab_dark_background.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -3301,18 +3203,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-v21/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.96">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_main_twopane.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7108433">
+        <state vertical-scroll-proportion="0.0">
           <caret line="75" column="66" selection-start-line="75" selection-start-column="66" selection-end-line="75" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values-v21/themes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/themes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25301206">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
       </provider>
