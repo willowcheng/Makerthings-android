@@ -39,7 +39,7 @@
     <string name="settings_openhab_password">Password</string>
     <string name="settings_openhab_password_summary">openHAB password</string>
     <string name="settings_openhab_screentimeroff">Disable display timer</string>
-    <string name="settings_openhab_screentimeroff_summary">Disable display switch off timer when HABDroid is running</string>
+    <string name="settings_openhab_screentimeroff_summary">Display switch off timer when Makerthings is running</string>
     <string name="settings_openhab_demomode">Demo mode</string>
     <string name="settings_openhab_demomode_summary">Run Makerthings in demo mode</string>
     <string name="settings_openhab_theme">HABDroid Theme</string>

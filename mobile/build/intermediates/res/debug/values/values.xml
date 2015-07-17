@@ -430,7 +430,7 @@
     <string name="settings_openhab_password">Password</string>
     <string name="settings_openhab_password_summary">openHAB password</string>
     <string name="settings_openhab_screentimeroff">Disable display timer</string>
-    <string name="settings_openhab_screentimeroff_summary">Disable display switch off timer when HABDroid is running</string>
+    <string name="settings_openhab_screentimeroff_summary">Display switch off timer when Makerthings is running</string>
     <string name="settings_openhab_sslcert">Ignore SSL certificate</string>
     <string name="settings_openhab_sslcert_summary">Ignore certificate validation during SSL handshake</string>
     <string name="settings_openhab_sslhost">Ignore SSL hostname</string>
