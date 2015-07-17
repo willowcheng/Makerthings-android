@@ -6,5 +6,6 @@
     <color name="light">#ffffff</color>
     <color name="dark">#191919</color>
     <color name="highlight">#38c0f4</color>
+    <color name="theme_accent">#03A9F4</color>
 
 </resources>

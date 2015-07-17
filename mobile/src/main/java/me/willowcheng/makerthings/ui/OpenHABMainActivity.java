@@ -35,6 +35,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.speech.RecognizerIntent;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
@@ -167,7 +168,7 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
     private NetworkConnectivityInfo mStartedWithNetworkConnectivityInfo;
     private int mOpenHABVersion;
     private List<OpenHABDrawerItem> mDrawerItemList;
-    private ProgressBar mProgressBar;
+    private SwipeRefreshLayout mProgressBar;
     private Boolean mIsMyOpenHAB = false;
     private String mRegId = null;
     /*
@@ -232,8 +233,16 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // ProgressBar layout params inside the toolbar have to be done programmatically
         // because it doesn't work through layout file :-(
-        mProgressBar = (ProgressBar) toolbar.findViewById(R.id.toolbar_progress_bar);
-        mProgressBar.setLayoutParams(new Toolbar.LayoutParams(Gravity.RIGHT));
+        mProgressBar = (SwipeRefreshLayout) findViewById(R.id.toolbar_progress_bar);
+        mProgressBar.setColorSchemeColors(getResources().getColor(R.color.theme_accent));
+        mProgressBar.setEnabled(false);
+        mProgressBar.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                mProgressBar.setRefreshing(false);
+            }
+        });
+//        mProgressBar.setLayoutParams(new Toolbar.LayoutParams(Gravity.RIGHT));
         startProgressIndicator();
         gcmRegisterBackground();
         // Enable app icon in action bar work as 'home'
@@ -783,7 +792,7 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
             case R.id.mainmenu_openhab_preferences:
                 Intent settingsIntent = new Intent(this.getApplicationContext(), OpenHABPreferencesActivity.class);
                 startActivityForResult(settingsIntent, SETTINGS_REQUEST_CODE);
-                Util.overridePendingTransition(this, false);
+//                Util.overridePendingTransition(this, false);
                 return true;
             case R.id.mainmenu_openhab_selectsitemap:
                 SharedPreferences settings =
@@ -1062,11 +1071,11 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
     }
 
     public void startProgressIndicator() {
-        mProgressBar.setVisibility(View.VISIBLE);
+        mProgressBar.setRefreshing(true);
     }
 
     public void stopProgressIndicator() {
-        mProgressBar.setVisibility(View.INVISIBLE);
+        mProgressBar.setRefreshing(false);
     }
 
     private void launchVoiceRecognition() {
