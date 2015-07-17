@@ -11,7 +11,6 @@
         android:orientation="vertical">
 
         <android.support.v7.widget.CardView
-            android:id="@+id/cardview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
@@ -69,7 +68,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:layout_marginTop="2dp"
-                        android:text="Beta 0.2"
+                        android:text="0.8"
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -142,7 +141,7 @@
                         android:layout_width="28dp"
                         android:layout_height="28dp"
                         android:layout_marginLeft="12dp"
-                        android:src="@drawable/openhabicon_light" />
+                        android:src="@drawable/openhab" />
 
                     <TextView
                         android:layout_width="fill_parent"
