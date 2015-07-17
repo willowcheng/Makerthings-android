@@ -106,8 +106,8 @@ public final class R {
 		public static final int ic_plusone_small_off_client = 0x7f020060;
 		public static final int ic_plusone_standard_off_client = 0x7f020061;
 		public static final int ic_plusone_tall_off_client = 0x7f020062;
-		public static final int powered_by_google_dark = 0x7f020076;
-		public static final int powered_by_google_light = 0x7f020077;
+		public static final int powered_by_google_dark = 0x7f020077;
+		public static final int powered_by_google_light = 0x7f020078;
 	}
 	public static final class id {
 		public static final int adjust_height = 0x7f0f001a;
@@ -178,11 +178,11 @@ public final class R {
 		public static final int wallet_buy_button_place_holder = 0x7f08007a;
 	}
 	public static final class style {
-		public static final int Theme_IAPTheme = 0x7f0c00b5;
-		public static final int WalletFragmentDefaultButtonTextAppearance = 0x7f0c00bb;
-		public static final int WalletFragmentDefaultDetailsHeaderTextAppearance = 0x7f0c00bc;
-		public static final int WalletFragmentDefaultDetailsTextAppearance = 0x7f0c00bd;
-		public static final int WalletFragmentDefaultStyle = 0x7f0c00be;
+		public static final int Theme_IAPTheme = 0x7f0c00b6;
+		public static final int WalletFragmentDefaultButtonTextAppearance = 0x7f0c00bc;
+		public static final int WalletFragmentDefaultDetailsHeaderTextAppearance = 0x7f0c00bd;
+		public static final int WalletFragmentDefaultDetailsTextAppearance = 0x7f0c00be;
+		public static final int WalletFragmentDefaultStyle = 0x7f0c00bf;
 	}
 	public static final class styleable {
 		public static final int[] AdsAttrs = { 0x7f010032, 0x7f010033, 0x7f010034 };

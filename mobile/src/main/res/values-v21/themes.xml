@@ -25,4 +25,15 @@
         <item name="colorAccent">#03A9F4</item>
         <item name="colorPrimaryDark">#D32F2F</item>
     </style>
+
+    <!-- Splash screen application theme. -->
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Here we setting appcompat’s actionBarStyle -->
+        <item name="windowActionBar">false</item>
+
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+    </style>
 </resources>

@@ -1383,6 +1383,19 @@
     <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="android:Widget">
         <item name="android:layout_marginLeft">@dimen/abc_dropdownitem_text_padding_left</item>
     </style>
+    <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Here we setting appcompat’s actionBarStyle -->
+        <item name="windowActionBar">false</item>
+
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+    </style>
+    <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <eat-comment/>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
     <style name="TextAppearance.AppCompat.Body2" parent="Base.TextAppearance.AppCompat.Body2"/>
