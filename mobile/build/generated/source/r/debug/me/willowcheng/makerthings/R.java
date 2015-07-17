@@ -2242,8 +2242,8 @@ containing a value of this type.
         public static final int listMode=0x7f0f0009;
         public static final int list_item=0x7f0f003d;
         public static final int listdivider=0x7f0f0069;
-        public static final int mainmenu_openhab_clearcache=0x7f0f00a2;
-        public static final int mainmenu_openhab_info=0x7f0f00a1;
+        public static final int mainmenu_openhab_clearcache=0x7f0f00a1;
+        public static final int mainmenu_openhab_info=0x7f0f00a2;
         public static final int mainmenu_openhab_preferences=0x7f0f009e;
         public static final int mainmenu_openhab_selectsitemap=0x7f0f009f;
         public static final int mainmenu_openhab_writetag=0x7f0f00a0;

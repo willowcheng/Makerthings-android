@@ -1,19 +1,19 @@
 /**
  * Copyright (c) 2010-2014, openHAB.org and others.
- *
+ * <p/>
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
- *  @author Victor Belov
- *  @since 1.4.0
- *
+ * @author Victor Belov
+ * @since 1.4.0
  */
 
 package me.willowcheng.makerthings.ui;
 
-import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -23,6 +23,7 @@ import android.widget.TextView;
 import com.loopj.android.http.TextHttpResponseHandler;
 
 import org.apache.http.Header;
+
 import me.willowcheng.makerthings.R;
 import me.willowcheng.makerthings.util.MyAsyncHttpClient;
 import me.willowcheng.makerthings.util.Util;
@@ -46,10 +47,10 @@ public class OpenHABInfoActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.openhabinfo);
         mAsyncHttpClient = new MyAsyncHttpClient(this);
-        mOpenHABVersionText = (TextView)findViewById(R.id.openhab_version);
-        mOpenHABUUIDText = (TextView)findViewById(R.id.openhab_uuid);
-        mOpenHABSecretText = (TextView)findViewById(R.id.openhab_secret);
-        mOpenHABSecretLabel = (TextView)findViewById(R.id.openhab_secret_label);
+        mOpenHABVersionText = (TextView) findViewById(R.id.openhab_version);
+        mOpenHABUUIDText = (TextView) findViewById(R.id.openhab_uuid);
+        mOpenHABSecretText = (TextView) findViewById(R.id.openhab_secret);
+        mOpenHABSecretLabel = (TextView) findViewById(R.id.openhab_secret_label);
         if (getIntent().hasExtra("openHABBaseUrl")) {
             mOpenHABBaseUrl = getIntent().getStringExtra("openHABBaseUrl");
             mUsername = getIntent().getStringExtra("username");
@@ -116,9 +117,16 @@ public class OpenHABInfoActivity extends ActionBarActivity {
         });
     }
 
-        @Override
+    @Override
     public void finish() {
         super.finish();
         Util.overridePendingTransition(this, true);
+    }
+
+    public void writeEmail(View v) {
+        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "ottawazineapp@Gmail.com", null));
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Makerthings Android App Feedback");
+//        intent.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.contact_email_text));
+        startActivity(Intent.createChooser(intent, "Send Email"));
     }
 }

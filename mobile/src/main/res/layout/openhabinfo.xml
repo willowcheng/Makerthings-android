@@ -52,8 +52,6 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginRight="12dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -61,6 +59,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="Version"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@android:color/primary_text_light" />
 
@@ -69,7 +69,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:layout_marginTop="2dp"
-                        android:text="0.2"
+                        android:text="Beta 0.2"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textIsSelectable="true"
                         android:textSize="15sp" />
@@ -77,13 +79,26 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
                         android:background="#ffeaeaea" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:onClick="writeEmail"
+                        android:longClickable="true">
 
                     <TextView
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="Author"
+                        android:text="Contact"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@android:color/primary_text_light" />
 
@@ -92,11 +107,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:layout_marginTop="2dp"
-                        android:text="Liu Cheng"
+                        android:text="I'd love to hear your feedback"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textIsSelectable="true"
                         android:textSize="15sp" />
 
+                    </LinearLayout>
 
                 </LinearLayout>
             </LinearLayout>
