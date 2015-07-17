@@ -17,7 +17,7 @@
         android:maxHeight="32dp"
         android:maxWidth="32dp"
         android:scaleType="fitCenter"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="64dp"
         android:adjustViewBounds="true"
         />
     <LinearLayout

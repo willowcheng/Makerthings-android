@@ -29,23 +29,22 @@
         android:layout_height="match_parent"
         android:layout_below="@id/openhab_toolbar">
 
-        <android.support.v4.widget.SwipeRefreshLayout
-            android:id="@+id/toolbar_progress_bar"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
-            <RelativeLayout
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/toolbar_progress_bar"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <me.willowcheng.makerthings.ui.OpenHABViewPager
                     android:id="@+id/pager"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
-            </RelativeLayout>
-
-        </android.support.v4.widget.SwipeRefreshLayout>
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </RelativeLayout>
 
         <ListView
             android:id="@+id/left_drawer"
