@@ -23,7 +23,7 @@
     <string name="mainmenu_openhab_preferences">Settings</string>
     <string name="mainmenu_openhab_selectsitemap">Select default sitemap</string>
     <string name="mainmenu_openhab_writetag">Write NFC tag</string>
-    <string name="mainmenu_openhab_info">Makerthings info</string>
+    <string name="mainmenu_openhab_info">About</string>
     <string name="mainmenu_openhab_clearcache">Clear images cache</string>
     <!-- App settings strings -->
     <string name="settings_connection_title">Connection Settings</string>
@@ -40,7 +40,7 @@
     <string name="settings_openhab_screentimeroff">Disable display timer</string>
     <string name="settings_openhab_screentimeroff_summary">Disable display switch off timer when HABDroid is running</string>
     <string name="settings_openhab_demomode">Demo mode</string>
-    <string name="settings_openhab_demomode_summary">Run HABDroid in demo mode</string>
+    <string name="settings_openhab_demomode_summary">Run Makerthings in demo mode</string>
     <string name="settings_openhab_theme">HABDroid Theme</string>
     <string name="settings_openhab_appversion">HABDroid Version</string>
     <string name="settings_openhab_sslcert">Ignore SSL certificate</string>
@@ -54,7 +54,7 @@
     <string name="title_voice_widget">OpenHAB Voice Commands</string>
     <string name="info_voice_input">"openHAB, at your command!"</string>
     <string name="info_voice_recognized_text">"Recognized command: %1$s"</string>
-    <string name="info_demo_mode">HABDroid is running in demo mode. To connect to your openHAB please go to settings menu.</string>
+    <string name="info_demo_mode">Makerthings is running in demo mode. To connect to your openHAB please go to settings menu.</string>
     <string name="info_conn_url">Connecting to configured URL</string>
     <string name="info_conn_rem_url">Connecting to remote URL</string>
     <string name="info_discovery">Discovering openHAB. Please wait...</string>
@@ -68,12 +68,12 @@
     <string name="erorr_no_wifi_state_permission">ACCESS_WIFI_STATE permission is not granted, openHAB discovery will be disabled!</string>
     <string name="error_connection_failed">Connection to host failed</string>
     <string name="title_activity_openhabwritetag">Write NFC tag</string>
-    <string name="title_activity_openhabinfo">Makerthings Information</string>
+    <string name="title_activity_openhabinfo">About</string>
     <string name="info_write_tag">Touch the tag and keep it close until the confirmation message appear</string>
     <string name="info_write_tag_progress">Writing the tag</string>
     <string name="info_write_tag_finished">Successfully finished</string>
     <string name="info_write_failed">Tag write error</string>
-    <string name="info_write_tag_unsupported">This device doesn\'t have NFC support :-(</string>
+    <string name="info_write_tag_unsupported">Your device doesn\'t have NFC support.</string>
     <string name="info_write_tag_disabled">NFC is disabled. Please enable it in device settings menu.</string>
     <string name="info_openhab_version_label">openHAB Version</string>
     <string name="info_openhab_uuid_label">openHAB UUID</string>

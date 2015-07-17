@@ -10,26 +10,58 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/mobile/src/main/res/layout/openhabwritetag.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
     </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0e5a648-ca2f-4eaf-9200-b7f5939631fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$10$1$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$10$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$10$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$10$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$10.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$8.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$9.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/ic_nfc_100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/ic_nfc_disable_100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/core/GcmIntentService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/core/GcmIntentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/drawer/OpenHABDrawerAdapter.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/drawer/OpenHABDrawerAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABNotificationAdapter.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABNotificationAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity$1$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$drawable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$id.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$integer.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$layout.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$menu.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$mipmap.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$raw.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$string.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$style.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$styleable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$xml.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/mobile/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug-unaligned.apk" afterPath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug.apk" afterPath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/mobile/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABMainActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/com/google/android/gms/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/me/willowcheng/makerthings/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/me/willowcheng/makerthings/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwritetag.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/openhabwritetag.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwritetag.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwritetag.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Makerthings.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,33 +89,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SplashScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/SplashScreen.java">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+            <state vertical-scroll-proportion="-5.1346154">
+              <caret line="75" column="84" selection-start-line="75" selection-start-column="84" selection-end-line="75" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_splash.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_splash.xml">
+      <file leaf-file-name="openhabwritetag.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/openhabwritetag.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state vertical-scroll-proportion="-7.2413793">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -92,87 +112,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preferences.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml">
+      <file leaf-file-name="openhab.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhab.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="openhabicon.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabicon.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="openhabiconsmall.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabiconsmall.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="openhabicon_light.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabicon_light.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenHABWriteTagActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.814815">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state vertical-scroll-proportion="-4.740741">
+              <caret line="71" column="88" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.077922076">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-              <folding />
-            </state>
+      <file leaf-file-name="nfc_logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable/nfc_logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpenHABPreferencesActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-66.96296">
-              <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
-              <folding />
-            </state>
+      <file leaf-file-name="nfc_splash.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/nfc_splash.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemorizingTrustManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/de/duenndns/ssl/MemorizingTrustManager.java">
+      <file leaf-file-name="openhabinfo.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/openhabinfo.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="407" column="0" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.444445">
-              <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenHABMainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABMainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.703704">
-              <caret line="71" column="47" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="47" />
+            <state vertical-scroll-proportion="-0.4642857">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
-                <element signature="e#54957#55007#0" expanded="true" />
-                <element signature="e#55225#55275#0" expanded="true" />
-                <element signature="e#55776#55777#0" expanded="true" />
-                <element signature="e#55813#55814#0" expanded="true" />
-                <element signature="e#55873#55874#0" expanded="true" />
-                <element signature="e#55925#55926#0" expanded="true" />
-                <element signature="e#55967#55968#0" expanded="true" />
-                <element signature="e#56005#56006#0" expanded="true" />
-                <element signature="e#56163#56164#0" expanded="true" />
-                <element signature="e#56201#56202#0" expanded="true" />
-                <element signature="e#56355#56356#0" expanded="true" />
-                <element signature="e#56398#56399#0" expanded="true" />
-                <element signature="e#57446#59167#0" expanded="true" />
-                <element signature="e#59166#59167#0" expanded="true" />
+                <element signature="e#506#542#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_signup.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_signup.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -2218,7 +2217,6 @@
         <option value="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/util/Util.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/openhabdrawer_sitemap_item.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABInfoActivity.java" />
-        <option value="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/openhabdrawer_header_item.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout-v21/openhabdrawer_header_item.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout-v21/activity_main_onepane.xml" />
@@ -2235,9 +2233,11 @@
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_splash.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml" />
-        <option value="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABMainActivity.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.java" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwritetag.xml" />
       </list>
     </option>
   </component>
@@ -2366,6 +2366,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Makerthings" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2800,26 +2818,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/menu_mic_dark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/menu_mic_light.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable/nfc_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/nfc_splash.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2839,26 +2837,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabicon_light.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhab.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabicon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabiconsmall.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/layout.xml">
@@ -2926,14 +2904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -3136,9 +3106,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#521#522#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3170,7 +3140,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3238,12 +3208,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/openhabinfo.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.077922076">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state vertical-scroll-proportion="-0.4642857">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#506#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable/nfc_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/nfc_splash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.740741">
+          <caret line="71" column="88" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="88" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.1346154">
+          <caret line="75" column="84" selection-start-line="75" selection-start-column="84" selection-end-line="75" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/openhabwritetag.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2413793">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhab.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabicon_light.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabiconsmall.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/drawable-hdpi/openhabicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

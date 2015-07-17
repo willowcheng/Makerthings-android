@@ -26,6 +26,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.gms.analytics.GoogleAnalytics;
@@ -64,9 +65,11 @@ public class OpenHABWriteTagActivity extends ActionBarActivity {
 //        Util.setActivityTheme(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.openhabwritetag);
+        ImageView writeTagImage = (ImageView) findViewById(R.id.write_tag_image);
         TextView writeTagMessage = (TextView) findViewById(R.id.write_tag_message);
         if (!this.getPackageManager().hasSystemFeature("android.hardware.nfc")) {
             writeTagMessage.setText(R.string.info_write_tag_unsupported);
+            writeTagImage.setImageDrawable(getResources().getDrawable(R.drawable.ic_nfc_disable_100));
         } else if (NfcAdapter.getDefaultAdapter(this) != null) {
             if (!NfcAdapter.getDefaultAdapter(this).isEnabled()) {
                 writeTagMessage.setText(R.string.info_write_tag_disabled);
