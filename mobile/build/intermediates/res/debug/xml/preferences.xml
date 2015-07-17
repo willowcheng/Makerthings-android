@@ -39,16 +39,16 @@
             android:summary="@string/settings_openhab_password_summary"
             android:title="@string/settings_openhab_password"
             />
-        <CheckBoxPreference
-            android:defaultValue="false"
-            android:key="default_openhab_sslcert"
-            android:summary="@string/settings_openhab_sslcert_summary"
-            android:title="@string/settings_openhab_sslcert" />
-        <CheckBoxPreference
-            android:defaultValue="true"
-            android:key="default_openhab_sslhost"
-            android:summary="@string/settings_openhab_sslhost_summary"
-            android:title="@string/settings_openhab_sslhost" />
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="default_openhab_sslcert"-->
+            <!--android:summary="@string/settings_openhab_sslcert_summary"-->
+            <!--android:title="@string/settings_openhab_sslcert" />-->
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="default_openhab_sslhost"-->
+            <!--android:summary="@string/settings_openhab_sslhost_summary"-->
+            <!--android:title="@string/settings_openhab_sslhost" />-->
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/settings_display_title">
         <!--<ListPreference-->

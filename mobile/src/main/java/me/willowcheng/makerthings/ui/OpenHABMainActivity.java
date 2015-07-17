@@ -797,8 +797,10 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
             case R.id.mainmenu_openhab_clearcache:
                 Log.d(TAG, "Restarting");
                 // Get launch intent for application
-                Intent restartIntent = getBaseContext().getPackageManager()
-                        .getLaunchIntentForPackage(getBaseContext().getPackageName());
+//                Intent restartIntent = getBaseContext().getPackageManager()
+//                        .getLaunchIntentForPackage(getBaseContext().getPackageName());
+//                restartIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                Intent restartIntent = new Intent(this, OpenHABMainActivity.class);
                 restartIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 // Finish current activity
                 finish();
@@ -1091,32 +1093,32 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
     private void showCertificateDialog(final int decisionId, String certMessage) {
         if (this.isFinishing())
             return;
-        AlertDialog.Builder builder = new AlertDialog.Builder(OpenHABMainActivity.this);
-        builder.setMessage(certMessage)
-                .setTitle(R.string.mtm_accept_cert);
-        builder.setPositiveButton(R.string.mtm_decision_always, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialogInterface, int i) {
+//        AlertDialog.Builder builder = new AlertDialog.Builder(OpenHABMainActivity.this);
+//        builder.setMessage(certMessage)
+//                .setTitle(R.string.mtm_accept_cert);
+//        builder.setPositiveButton(R.string.mtm_decision_always, new DialogInterface.OnClickListener() {
+//            public void onClick(DialogInterface dialogInterface, int i) {
                 Log.d(TAG, "User decided to always accept unknown certificate");
 //                MemorizingTrustManager.interactResult(decisionId, MTMDecision.DECISION_ALWAYS);
                 sendMTMDecision(decisionId, MTMDecision.DECISION_ALWAYS);
-            }
-        });
-        builder.setNeutralButton(R.string.mtm_decision_once, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialogInterface, int i) {
-                Log.d(TAG, "User decided to accept unknown certificate once");
-//                MemorizingTrustManager.interactResult(decisionId, MTMDecision.DECISION_ONCE);
-                sendMTMDecision(decisionId, MTMDecision.DECISION_ONCE);
-            }
-        });
-        builder.setNegativeButton(R.string.mtm_decision_abort, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialogInterface, int i) {
-                Log.d(TAG, "User decided to abort unknown certificate");
-//                MemorizingTrustManager.interactResult(decisionId, MTMDecision.DECISION_ABORT);
-                sendMTMDecision(decisionId, MTMDecision.DECISION_ABORT);
-            }
-        });
-        AlertDialog certAlert = builder.create();
-        certAlert.show();
+//            }
+//        });
+//        builder.setNeutralButton(R.string.mtm_decision_once, new DialogInterface.OnClickListener() {
+//            public void onClick(DialogInterface dialogInterface, int i) {
+//                Log.d(TAG, "User decided to accept unknown certificate once");
+////                MemorizingTrustManager.interactResult(decisionId, MTMDecision.DECISION_ONCE);
+//                sendMTMDecision(decisionId, MTMDecision.DECISION_ONCE);
+//            }
+//        });
+//        builder.setNegativeButton(R.string.mtm_decision_abort, new DialogInterface.OnClickListener() {
+//            public void onClick(DialogInterface dialogInterface, int i) {
+//                Log.d(TAG, "User decided to abort unknown certificate");
+////                MemorizingTrustManager.interactResult(decisionId, MTMDecision.DECISION_ABORT);
+//                sendMTMDecision(decisionId, MTMDecision.DECISION_ABORT);
+//            }
+//        });
+//        AlertDialog certAlert = builder.create();
+//        certAlert.show();
     }
 
     void sendMTMDecision(int decisionId, int decision) {
