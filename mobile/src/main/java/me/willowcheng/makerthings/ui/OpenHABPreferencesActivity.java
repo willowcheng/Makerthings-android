@@ -169,6 +169,6 @@ public class OpenHABPreferencesActivity extends PreferenceActivity {
 	@Override
 	public void finish() {
 		super.finish();
-		Util.overridePendingTransition(this, true);
+//		Util.overridePendingTransition(this, true);
 	}
 }

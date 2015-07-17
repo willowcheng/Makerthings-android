@@ -846,8 +846,9 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
                 // Restart app after preferences
                 Log.d(TAG, "Restarting after settings");
                 // Get launch intent for application
-                Intent restartIntent = getBaseContext().getPackageManager()
-                        .getLaunchIntentForPackage(getBaseContext().getPackageName());
+//                Intent restartIntent = getBaseContext().getPackageManager()
+//                        .getLaunchIntentForPackage(getBaseContext().getPackageName());
+                Intent restartIntent = new Intent(this, OpenHABMainActivity.class);
                 restartIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 // Finish current activity
                 finish();
