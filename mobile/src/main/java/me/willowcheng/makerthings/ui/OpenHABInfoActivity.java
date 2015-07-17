@@ -19,8 +19,10 @@ import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.loopj.android.http.TextHttpResponseHandler;
+import com.loopj.android.image.WebImageCache;
 
 import org.apache.http.Header;
 
@@ -128,5 +130,24 @@ public class OpenHABInfoActivity extends ActionBarActivity {
         intent.putExtra(Intent.EXTRA_SUBJECT, "Makerthings Android App Feedback");
 //        intent.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.contact_email_text));
         startActivity(Intent.createChooser(intent, "Send Email"));
+    }
+
+    public void clearCache(View v) {
+        // Get launch intent for application
+//                Intent restartIntent = getBaseContext().getPackageManager()
+//                        .getLaunchIntentForPackage(getBaseContext().getPackageName());
+//                restartIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//        Intent restartIntent = new Intent(this, OpenHABMainActivity.class);
+//        restartIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//        // Finish current activity
+//        finish();
+        WebImageCache cache = new WebImageCache(getBaseContext());
+        cache.clear();
+        // Start launch activity
+//        startActivity(restartIntent);
+//        // Start launch activity
+
+        Toast.makeText(this, "Images cache cleared",
+                Toast.LENGTH_SHORT).show();
     }
 }
