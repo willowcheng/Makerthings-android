@@ -676,10 +676,9 @@ int id linearLayout_login 0x7f0f0064
 int id listMode 0x7f0f0009
 int id list_item 0x7f0f003d
 int id listdivider 0x7f0f0069
-int id mainmenu_openhab_info 0x7f0f00a3
-int id mainmenu_openhab_preferences 0x7f0f00a2
-int id mainmenu_openhab_selectsitemap 0x7f0f00a0
-int id mainmenu_openhab_writetag 0x7f0f00a1
+int id mainmenu_openhab_info 0x7f0f00a2
+int id mainmenu_openhab_preferences 0x7f0f00a1
+int id mainmenu_openhab_writetag 0x7f0f00a0
 int id mainmenu_voice_recognition 0x7f0f009f
 int id match_parent 0x7f0f002e
 int id middle 0x7f0f0019

@@ -7,9 +7,9 @@
         android:orderInCategory="100"
         android:title="Voice Recognition"
         app:showAsAction="always" />
-    <item
-        android:id="@+id/mainmenu_openhab_selectsitemap"
-        android:title="@string/mainmenu_openhab_selectsitemap" />
+    <!--<item-->
+        <!--android:id="@+id/mainmenu_openhab_selectsitemap"-->
+        <!--android:title="@string/mainmenu_openhab_selectsitemap" />-->
     <item
         android:id="@+id/mainmenu_openhab_writetag"
         android:title="@string/mainmenu_openhab_writetag" />

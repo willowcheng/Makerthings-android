@@ -794,14 +794,14 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
                 startActivityForResult(settingsIntent, SETTINGS_REQUEST_CODE);
 //                Util.overridePendingTransition(this, false);
                 return true;
-            case R.id.mainmenu_openhab_selectsitemap:
-                SharedPreferences settings =
-                        PreferenceManager.getDefaultSharedPreferences(OpenHABMainActivity.this);
-                SharedPreferences.Editor preferencesEditor = settings.edit();
-                preferencesEditor.putString(Constants.PREFERENCE_SITEMAP, "");
-                preferencesEditor.commit();
-                selectSitemap(openHABBaseUrl, true);
-                return true;
+//            case R.id.mainmenu_openhab_selectsitemap:
+//                SharedPreferences settings =
+//                        PreferenceManager.getDefaultSharedPreferences(OpenHABMainActivity.this);
+//                SharedPreferences.Editor preferencesEditor = settings.edit();
+//                preferencesEditor.putString(Constants.PREFERENCE_SITEMAP, "");
+//                preferencesEditor.commit();
+//                selectSitemap(openHABBaseUrl, true);
+//                return true;
             case android.R.id.home:
                 Log.d(TAG, "Home selected");
                 if (pager.getCurrentItem() > 0) {
