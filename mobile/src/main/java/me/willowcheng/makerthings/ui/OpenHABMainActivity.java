@@ -103,6 +103,9 @@ import de.duenndns.ssl.MemorizingTrustManager;
 
 public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSelectedListener,
         OpenHABTrackerReceiver, MemorizingResponder {
+
+    private String title;
+
     public static final String GCM_SENDER_ID = "737820980945";
     // GCM Registration expiration
     public static final long REGISTRATION_EXPIRY_TIME_MS = 1000 * 3600 * 24 * 7;
@@ -262,10 +265,12 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
                 R.string.app_name, R.string.app_name) {
             public void onDrawerClosed(View view) {
                 Log.d(TAG, "onDrawerClosed");
+                getSupportActionBar().setTitle(pagerAdapter.getPageTitle(pager.getCurrentItem()));
             }
 
             public void onDrawerOpened(View drawerView) {
                 Log.d(TAG, "onDrawerOpened");
+                getSupportActionBar().setTitle("Makerthings");
                 loadSitemapList(OpenHABMainActivity.this.openHABBaseUrl);
             }
         };
@@ -1008,7 +1013,8 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
         Log.i(TAG, String.format("Link came from fragment on position %d", source.getPosition()));
         pagerAdapter.openPage(linkedPage.getLink(), source.getPosition() + 1);
         pager.setCurrentItem(pagerAdapter.getCount() - 1);
-        setTitle(linkedPage.getTitle());
+        getSupportActionBar().setTitle(linkedPage.getTitle());
+        title = linkedPage.getTitle();
     }
 
     @Override
@@ -1018,7 +1024,7 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
             super.onBackPressed();
         } else {
             pager.setCurrentItem(pager.getCurrentItem() - 1, true);
-            setTitle(pagerAdapter.getPageTitle(pager.getCurrentItem()));
+            getSupportActionBar().setTitle(pagerAdapter.getPageTitle(pager.getCurrentItem()));
         }
     }
 
@@ -1275,7 +1281,7 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
     private void loadDrawerItems() {
         mDrawerItemList.clear();
         if (mSitemapList != null) {
-            mDrawerItemList.add(OpenHABDrawerItem.headerItem("Sitemaps"));
+            mDrawerItemList.add(OpenHABDrawerItem.headerItem("SITEMAPS"));
             for (OpenHABSitemap sitemap: mSitemapList) {
                 mDrawerItemList.add(new OpenHABDrawerItem(sitemap));
             }
@@ -1285,13 +1291,13 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
         // Only show Notifications item if using my.openHAB
         if (mIsMyOpenHAB)
 //            mDrawerItemList.add(OpenHABDrawerItem.menuWithCountItem("Notifications", getResources().getDrawable(R.drawable.ic_notifications_grey600_36dp), 21));
-            mDrawerItemList.add(OpenHABDrawerItem.menuItem("Notifications", getResources().getDrawable(R.drawable.ic_notifications_grey600_36dp), DRAWER_NOTIFICATIONS));
+            mDrawerItemList.add(OpenHABDrawerItem.menuItem("NOTIFICATIONS", getResources().getDrawable(R.drawable.ic_notifications_grey600_36dp), DRAWER_NOTIFICATIONS));
         // Only show those items if openHAB version is >= 2, openHAB 1.x just don't have those APIs...
         if (mOpenHABVersion >= 2) {
-            mDrawerItemList.add(OpenHABDrawerItem.menuItem("Discovery", getResources().getDrawable(R.drawable.ic_track_changes_grey600_36dp), DRAWER_INBOX));
+            mDrawerItemList.add(OpenHABDrawerItem.menuItem("DISCOVERY", getResources().getDrawable(R.drawable.ic_track_changes_grey600_36dp), DRAWER_INBOX));
 //            mDrawerItemList.add(OpenHABDrawerItem.menuWithCountItem("New devices", getResources().getDrawable(R.drawable.ic_inbox_grey600_36dp), 2, DRAWER_INBOX));
 //            mDrawerItemList.add(OpenHABDrawerItem.menuItem("Things", getResources().getDrawable(R.drawable.ic_surround_sound_grey600_36dp)));
-            mDrawerItemList.add(OpenHABDrawerItem.menuItem("Bindings", getResources().getDrawable(R.drawable.ic_extension_grey600_36dp), DRAWER_BINDINGS));
+            mDrawerItemList.add(OpenHABDrawerItem.menuItem("BINDINGS", getResources().getDrawable(R.drawable.ic_extension_grey600_36dp), DRAWER_BINDINGS));
 //        mDrawerItemList.add(OpenHABDrawerItem.menuItem("openHAB info", getResources().getDrawable(R.drawable.ic_info_grey600_36dp)));
 //            mDrawerItemList.add(OpenHABDrawerItem.menuItem("Setup", getResources().getDrawable(R.drawable.ic_settings_grey600_36dp)));
         }

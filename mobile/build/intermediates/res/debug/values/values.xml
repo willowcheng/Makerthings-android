@@ -405,7 +405,7 @@
     <string name="mainmenu_openhab_info">About</string>
     <string name="mainmenu_openhab_preferences">Settings</string>
     <string name="mainmenu_openhab_selectsitemap">Default sitemap</string>
-    <string name="mainmenu_openhab_writetag">Write NFC</string>
+    <string name="mainmenu_openhab_writetag">NFC Tag</string>
     <string name="mtm_accept_cert">Accept unknown Certificate?</string>
     <string name="mtm_decision_abort">Abort</string>
     <string name="mtm_decision_always">Always</string>
@@ -445,7 +445,7 @@
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_openhabinfo">About</string>
-    <string name="title_activity_openhabwritetag">Write NFC</string>
+    <string name="title_activity_openhabwritetag">NFC Tag</string>
     <string name="title_voice_widget">OpenHAB Voice Commands</string>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_strings.xml -->
     <eat-comment/>

@@ -22,7 +22,7 @@
     <!-- Main menu items -->
     <string name="mainmenu_openhab_preferences">Settings</string>
     <string name="mainmenu_openhab_selectsitemap">Default sitemap</string>
-    <string name="mainmenu_openhab_writetag">Write NFC</string>
+    <string name="mainmenu_openhab_writetag">NFC Tag</string>
     <string name="mainmenu_openhab_info">About</string>
     <string name="mainmenu_openhab_clearcache">Clear cache</string>
     <!-- App settings strings -->
@@ -67,7 +67,7 @@
     <string name="erorr_no_wifi_mcast_permission">CHANGE_WIFI_MULTICAST_STATE permission is not granted, openHAB discovery will be disabled!</string>
     <string name="erorr_no_wifi_state_permission">ACCESS_WIFI_STATE permission is not granted, openHAB discovery will be disabled!</string>
     <string name="error_connection_failed">Connection to host failed</string>
-    <string name="title_activity_openhabwritetag">Write NFC</string>
+    <string name="title_activity_openhabwritetag">NFC Tag</string>
     <string name="title_activity_openhabinfo">About</string>
     <string name="info_write_tag">Touch the tag and keep it close until the confirmation message appear</string>
     <string name="info_write_tag_progress">Writing the tag</string>
