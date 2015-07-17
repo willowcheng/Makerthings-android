@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="@string/settings_connection_title">
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:disableDependentsState="true"
             android:key="default_openhab_demomode"
             android:summary="@string/settings_openhab_demomode_summary"
@@ -16,7 +16,8 @@
             android:inputType="textNoSuggestions"
             />
         <EditTextPreference
-            android:defaultValue=""
+            android:enabled="false"
+            android:defaultValue="https://my.openhab.org"
             android:dependency="default_openhab_demomode"
             android:key="default_openhab_alturl"
             android:summary="@string/settings_openhab_alturl_summary"
@@ -24,7 +25,8 @@
             android:inputType="textNoSuggestions"
             />
         <EditTextPreference
-            android:defaultValue=""
+            android:enabled="false"
+            android:defaultValue="e.wingus@gmail.com"
             android:dependency="default_openhab_demomode"
             android:key="default_openhab_username"
             android:summary="@string/settings_openhab_username_summary"
@@ -32,7 +34,8 @@
             android:inputType="textNoSuggestions"
             />
         <EditTextPreference
-            android:defaultValue=""
+            android:enabled="false"
+            android:defaultValue="cl1991112710"
             android:dependency="default_openhab_demomode"
             android:inputType="textPassword"
             android:key="default_openhab_password"

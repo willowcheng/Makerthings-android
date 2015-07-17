@@ -415,12 +415,12 @@
     <string name="mtm_decision_once">Once</string>
     <string name="mtm_notification">Certificate verification</string>
     <string name="nfc_dialog_title">Please select NFC tag action</string>
-    <string name="openhab_demo_url">http://192.168.0.17:8080/</string>
+    <string name="openhab_demo_url">https://demo.openhab.org:8443/</string>
     <string name="openhab_service_type">_openhab-server-ssl._tcp.local.</string>
     <string name="settings_connection_title">Connection Settings</string>
     <string name="settings_display_title">Display Settings</string>
     <string name="settings_misc_title">Misc Settings</string>
-    <string name="settings_openhab_alturl">openHAB Remote URL</string>
+    <string name="settings_openhab_alturl">Cloud Server URL</string>
     <string name="settings_openhab_alturl_summary">Remote openHAB URL (used when local openHAB is unavailable)</string>
     <string name="settings_openhab_appversion">HABDroid Version</string>
     <string name="settings_openhab_demomode">Demo mode</string>
@@ -436,9 +436,9 @@
     <string name="settings_openhab_sslhost">Ignore SSL hostname</string>
     <string name="settings_openhab_sslhost_summary">Ignore hostname check during SSL handshake</string>
     <string name="settings_openhab_theme">HABDroid Theme</string>
-    <string name="settings_openhab_url">openHAB URL</string>
+    <string name="settings_openhab_url">Server URL</string>
     <string name="settings_openhab_url_summary">Manually configured openHAB URL. Disables autodiscovery if configured.</string>
-    <string name="settings_openhab_username">Username</string>
+    <string name="settings_openhab_username">Email</string>
     <string name="settings_openhab_username_summary">openHAB username</string>
     <string name="settings_ringtone">Ring tone</string>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_strings.xml -->
