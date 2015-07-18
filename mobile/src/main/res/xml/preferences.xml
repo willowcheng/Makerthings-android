@@ -8,7 +8,7 @@
             android:summary="@string/settings_openhab_demomode_summary"
             android:title="@string/settings_openhab_demomode" />
         <EditTextPreference
-            android:defaultValue=""
+            android:defaultValue="http://137.122.91.54:8080"
             android:dependency="default_openhab_demomode"
             android:key="default_openhab_url"
             android:summary="@string/settings_openhab_url_summary"

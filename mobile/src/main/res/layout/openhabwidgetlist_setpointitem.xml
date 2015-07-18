@@ -44,7 +44,7 @@
             android:id="@+id/setpointbutton_minus"
             android:layout_width="32dp"
             android:layout_height="32dp"
-            android:paddingBottom="8dp"
+            android:paddingBottom="12dp"
             android:textAlignment="center"
             android:text="-" />
 
@@ -60,7 +60,7 @@
             android:id="@+id/setpointbutton_plus"
             android:layout_width="32dp"
             android:layout_height="32dp"
-            android:paddingBottom="8dp"
+            android:paddingBottom="12dp"
             android:textAlignment="center"
             android:text="+" />
     </LinearLayout>
