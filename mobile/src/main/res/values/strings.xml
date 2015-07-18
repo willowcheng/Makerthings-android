@@ -52,14 +52,14 @@
     <string name="settings_openhab_fullscreen_summary">Display in fullscreen mode</string>
     <string name="settings_ringtone">Ring tone</string>
     <!-- App messages strings -->
-    <string name="title_voice_widget">OpenHAB Voice Commands</string>
-    <string name="info_voice_input">"openHAB, at your command!"</string>
+    <string name="title_voice_widget">Makerthings Voice Commands</string>
+    <string name="info_voice_input">"Makerthings, at your command!"</string>
     <string name="info_voice_recognized_text">"Recognized command: %1$s"</string>
-    <string name="info_demo_mode">Makerthings is running in demo mode. To connect to your openHAB please go to settings menu.</string>
+    <string name="info_demo_mode">Makerthings is running in demo mode. Go to settings menu to connect your server.</string>
     <string name="info_conn_url">Connecting to configured URL</string>
     <string name="info_conn_rem_url">Connecting to remote URL</string>
-    <string name="info_discovery">Discovering openHAB. Please wait...</string>
-    <string name="error_no_url">Please check that openHAB is running or configure openHAB URL or remote URL</string>
+    <string name="info_discovery">Discovering Server...</string>
+    <string name="error_no_url">Please check that server is running or configure server URL</string>
     <string name="error_authentication_failed">Authentication Failed. Please check Username/Password settings</string>
     <string name="error_empty_sitemap_list">openHAB returned empty sitemap list</string>
     <string name="error_network_not_available">Network is not available</string>

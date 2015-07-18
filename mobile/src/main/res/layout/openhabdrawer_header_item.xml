@@ -26,20 +26,20 @@
             android:layout_width="32dp"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="16dp"
             android:adjustViewBounds="true"
             android:maxHeight="24dp"
             android:maxWidth="32dp"
             android:minHeight="24dp"
             android:minWidth="32dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_bell_grey600_48dp" />
+            android:src="@drawable/ic_minus_network_grey600_48dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="32dp"
             android:layout_toRightOf="@+id/itemimage_temp"
             android:gravity="left|center_vertical"
             android:orientation="horizontal">
@@ -50,6 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left|center_vertical"
                 android:text="Sitemaps"
+                android:textColor="#de000000"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
         </LinearLayout>
 
@@ -57,17 +58,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="16dp"
             android:layout_toRightOf="@+id/itemimage_temp"
             android:gravity="right|center_vertical"
             android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right|center_vertical"
-                android:layout_marginRight="20dp"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <ImageView
                 android:layout_width="24dp"
