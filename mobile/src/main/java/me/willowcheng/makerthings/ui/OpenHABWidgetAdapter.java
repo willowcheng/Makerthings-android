@@ -204,10 +204,10 @@ public class OpenHABWidgetAdapter extends ArrayAdapter<OpenHABWidget> {
         labelTextView = (TextView)widgetView.findViewById(R.id.widgetlabel);
         // Change label color only for non-frame widgets
         if(labelColor != null && labelTextView != null && this.getItemViewType(position) != TYPE_FRAME) {
-            Log.d(TAG, String.format("Setting label color to %d", labelColor));
-            labelTextView.setTextColor(labelColor);
-        } else if (labelTextView != null && this.getItemViewType(position) != TYPE_FRAME)
-            labelTextView.setTextColor(defaultTextView.getTextColors().getDefaultColor());
+            Log.d(TAG, String.format("Setting label color to %d", labelColor));}
+//            labelTextView.setTextColor(labelColor);
+//        } else if (labelTextView != null && this.getItemViewType(position) != TYPE_FRAME)
+//            labelTextView.setTextColor(defaultTextView.getTextColors().getDefaultColor());
         // Get TextView for widget value and set it's color
         valueTextView = (TextView)widgetView.findViewById(R.id.widgetvalue);
         if (valueColor != null && valueTextView != null) {

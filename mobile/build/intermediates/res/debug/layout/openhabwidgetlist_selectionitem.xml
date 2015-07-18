@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:paddingTop="16dp"
             android:paddingBottom="20dp"
-            android:layout_marginLeft="24dp"
+            android:layout_marginLeft="16dp"
             android:text="Music"
             android:textColor="#de000000"
             android:textSize="16sp" />
@@ -52,7 +52,7 @@
         android:id="@+id/listdivider"
         android:layout_width="fill_parent"
         android:layout_height="1dip"
-        android:layout_below="@+id/selectionleftlayout"
+        android:layout_alignParentBottom="true"
         android:layout_marginLeft="@dimen/widgetlist_divider_left_margin"
         android:layout_marginRight="@dimen/widgetlist_divider_right_margin"
         android:background="?android:attr/listDivider"

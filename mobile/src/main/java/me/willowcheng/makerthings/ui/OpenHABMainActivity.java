@@ -106,6 +106,7 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
         OpenHABTrackerReceiver, MemorizingResponder {
 
     private String title;
+    private SharedPreferences perPreferences;
 
     public static final String GCM_SENDER_ID = "737820980945";
     // GCM Registration expiration
@@ -192,6 +193,7 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
     protected void onCreate(Bundle savedInstanceState) {
         Log.d(TAG, "onCreate()");
         // Check if we are in development mode
+        perPreferences = getSharedPreferences("pref", this.MODE_PRIVATE);
         isDeveloper = false;
         // Set default values, false means do it one time during the very first launch
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
@@ -824,6 +826,14 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
 //                startActivity(restartIntent);
 //                // Start launch activity
 //                return true;
+            case R.id.mainmenu_signout:
+                Intent intent = new Intent(this, SplashScreen.class);
+                SharedPreferences.Editor editor = perPreferences.edit();
+                editor.putBoolean("account_login", false);
+                editor.apply();
+                startActivity(intent);
+                finish();
+                return true;
             case R.id.mainmenu_openhab_writetag:
                 Intent writeTagIntent = new Intent(this.getApplicationContext(), OpenHABWriteTagActivity.class);
                 // TODO: get current display page url, which? how? :-/

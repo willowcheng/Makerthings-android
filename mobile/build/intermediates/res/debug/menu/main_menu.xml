@@ -23,9 +23,16 @@
         android:title="@string/mainmenu_openhab_preferences"
         android:orderInCategory="200"
         app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mainmenu_signout"
+        android:title="Sign Out" />
+
     <item
         android:id="@+id/mainmenu_openhab_info"
         android:title="@string/mainmenu_openhab_info" />
+
+
 
 </menu>
 <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/menu/main_menu.xml -->
