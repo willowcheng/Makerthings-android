@@ -8,14 +8,10 @@
     android:gravity="center_vertical"
     android:layout_gravity="center_vertical">
     <me.willowcheng.makerthings.util.MySmartImageView
-        android:layout_width="32dp"
+        android:layout_width="24dp"
         android:layout_height="match_parent"
         android:id="@+id/itemimage"
         android:layout_gravity="center_vertical"
-        android:minHeight="24dp"
-        android:minWidth="32dp"
-        android:maxHeight="24dp"
-        android:maxWidth="32dp"
         android:scaleType="fitCenter"
         android:layout_marginLeft="16dp"
         android:adjustViewBounds="true"

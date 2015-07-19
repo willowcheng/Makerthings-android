@@ -395,7 +395,7 @@
     <string name="info_not_set">Not set</string>
     <string name="info_openhab_secret_label">Secret</string>
     <string name="info_openhab_uuid_label">UUID</string>
-    <string name="info_openhab_version_label">Version</string>
+    <string name="info_openhab_version_label">Version </string>
     <string name="info_voice_input">"Makerthings, at your command!"</string>
     <string name="info_voice_recognized_text">"Recognized command: %1$s"</string>
     <string name="info_write_failed">Tag write error</string>

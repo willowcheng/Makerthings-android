@@ -76,7 +76,7 @@
     <string name="info_write_failed">Tag write error</string>
     <string name="info_write_tag_unsupported">Sorry, your device doesn\'t have NFC support.</string>
     <string name="info_write_tag_disabled">NFC is disabled. Please enable it in device settings menu.</string>
-    <string name="info_openhab_version_label">Version</string>
+    <string name="info_openhab_version_label">Version </string>
     <string name="info_openhab_uuid_label">UUID</string>
     <string name="info_openhab_secret_label">Secret</string>
     <string name="action_settings">Settings</string>

@@ -7,14 +7,10 @@
     android:gravity="center_vertical"
     android:layout_gravity="center_vertical">
     <me.willowcheng.makerthings.util.MySmartImageView
-        android:layout_width="32dp"
+        android:layout_width="24dp"
         android:layout_height="match_parent"
         android:id="@+id/itemimage"
         android:layout_gravity="center_vertical"
-        android:minHeight="32dp"
-        android:minWidth="32dp"
-        android:maxHeight="32dp"
-        android:maxWidth="32dp"
         android:scaleType="fitCenter"
         android:layout_marginLeft="64dp"
         android:adjustViewBounds="true"
@@ -24,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_toRightOf="@+id/itemimage"
-        android:layout_marginLeft="24dp"
+        android:layout_marginLeft="32dp"
         android:layout_centerVertical="true"
         android:gravity="center_vertical">
         <TextView android:id="@+id/itemlabel"

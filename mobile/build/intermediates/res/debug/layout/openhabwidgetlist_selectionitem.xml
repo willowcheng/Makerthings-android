@@ -19,20 +19,18 @@
 
         <me.willowcheng.makerthings.util.MySmartImageView
             android:id="@+id/widgetimage"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:layout_gravity="center_vertical"
-            android:minHeight="50dip"
-            android:src="@mipmap/ic_launcher"
-            android:minWidth="50dip" />
+            android:src="@mipmap/ic_launcher" />
 
         <TextView
             android:id="@+id/widgetlabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="16dp"
+            android:layout_marginLeft="24dp"
             android:paddingBottom="20dp"
-            android:layout_marginLeft="16dp"
+            android:paddingTop="16dp"
             android:text="Music"
             android:textColor="#de000000"
             android:textSize="16sp" />

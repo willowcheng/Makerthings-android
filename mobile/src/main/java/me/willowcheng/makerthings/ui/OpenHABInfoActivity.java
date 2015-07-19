@@ -150,4 +150,8 @@ public class OpenHABInfoActivity extends ActionBarActivity {
         Toast.makeText(this, "Images cache cleared",
                 Toast.LENGTH_SHORT).show();
     }
+    public void goGithub(View v) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/willowcheng/Makerthings-android"));
+        startActivity(intent);
+    }
 }
