@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.openhab.habdroid"
-    android:versionCode="15"
-    android:versionName="1.7.0.1" >
+    package="me.willowcheng.makerthings"
+    android:versionCode="1"
+    android:versionName="0.8" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -20,10 +20,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="org.openhab.habdroid.gcm.permission.C2D_MESSAGE"
+        android:name="me.willowcheng.makerthings.gcm.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="org.openhab.habdroid.gcm.permission.C2D_MESSAGE" />
+    <uses-permission android:name="me.willowcheng.makerthings.gcm.permission.C2D_MESSAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-feature
@@ -34,24 +34,40 @@
         android:required="false" />
 
     <application
-        android:name="org.openhab.habdroid.core.HABDroid"
+        android:name="me.willowcheng.makerthings.core.HABDroid"
         android:allowBackup="true"
-        android:icon="@drawable/openhabicon"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/HABDroid.Light" >
+        android:theme="@style/AppTheme" >
         <activity
-            android:name="org.openhab.habdroid.ui.OpenHABPreferencesActivity"
-            android:label="@string/app_preferences_name" >
-        </activity>
-        <activity
-            android:name="org.openhab.habdroid.ui.OpenHABMainActivity"
-            android:label="@string/app_name"
-            android:launchMode="singleTop" >
+            android:name="me.willowcheng.makerthings.ui.SplashScreen"
+            android:launchMode="singleTop"
+            android:theme="@style/SplashScreenTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="me.willowcheng.makerthings.ui.SignupActivity"
+            android:theme="@style/SplashScreenTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.SplashScreen" />
+        </activity>
+        <activity
+            android:name="me.willowcheng.makerthings.ui.OpenHABPreferencesActivity"
+            android:label="@string/app_preferences_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.OpenHABMainActivity" />
+        </activity>
+        <activity
+            android:name="me.willowcheng.makerthings.ui.OpenHABMainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/NavDrawerTheme" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
@@ -69,41 +85,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.openhab.habdroid.ui.OpenHABWriteTagActivity"
+            android:name="me.willowcheng.makerthings.ui.OpenHABWriteTagActivity"
             android:label="@string/title_activity_openhabwritetag" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.OpenHABMainActivity" />
         </activity>
         <activity
-            android:name="org.openhab.habdroid.ui.OpenHABInfoActivity"
+            android:name="me.willowcheng.makerthings.ui.OpenHABInfoActivity"
             android:label="@string/title_activity_openhabinfo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.OpenHABMainActivity" />
         </activity>
         <activity android:name="de.duenndns.ssl.MemorizingActivity" />
 
         <service
-            android:name="org.openhab.habdroid.core.OpenHABVoiceService"
-            android:exported="false" >
-        </service>
+            android:name="me.willowcheng.makerthings.core.OpenHABVoiceService"
+            android:exported="false" />
 
         <receiver
-            android:name="org.openhab.habdroid.core.GcmBroadcastReceiver"
+            android:name="me.willowcheng.makerthings.core.GcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="org.openhab.habdroid" />
+                <category android:name="me.willowcheng.makerthings" />
             </intent-filter>
         </receiver>
-        <receiver android:name="org.openhab.habdroid.core.NotificationDeletedBroadcastReceiver" >
+        <receiver android:name="me.willowcheng.makerthings.core.NotificationDeletedBroadcastReceiver" >
             <intent-filter>
-                <action android:name="org.openhab.habdroid.notification.deleted" />
+                <action android:name="me.willowcheng.makerthings.notification.deleted" />
 
-                <category android:name="org.openhab.habdroid" />
+                <category android:name="me.willowcheng.makerthings" />
             </intent-filter>
         </receiver>
 
-        <service android:name="org.openhab.habdroid.core.GcmIntentService" />
+        <service android:name="me.willowcheng.makerthings.core.GcmIntentService" />
 
         <receiver
-            android:name="org.openhab.habdroid.ui.VoiceWidget"
+            android:name="me.willowcheng.makerthings.ui.VoiceWidget"
             android:label="@string/title_voice_widget" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -114,9 +135,9 @@
                 android:resource="@xml/voice_widget_info" />
         </receiver>
         <!--
-        This is temp disabled because of a bug in GMS 6.5
-        <meta-data android:name="com.google.android.gms.analytics.globalConfigResource"
-            android:resource="@xml/global_tracker" />
+                This is temp disabled because of a bug in GMS 6.5
+                <meta-data android:name="com.google.android.gms.analytics.globalConfigResource"
+                    android:resource="@xml/global_tracker" />
         -->
         <meta-data
             android:name="com.google.android.gms.version"

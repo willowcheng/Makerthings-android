@@ -2,11 +2,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/widget_margin"
-    android:background="#6333" >
+    android:background="#B6B6B6" >
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp"
+        android:padding="8dp"
         android:id="@+id/btn_mic"
 
         android:layout_centerHorizontal="true"
@@ -15,12 +15,10 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="28dp"
         android:id="@+id/btn_open_main"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:src="@drawable/openhabiconsmall"
-        android:background="#C333" />
+        android:src="@drawable/ic_launcher_reverse"
+        android:background="#F44336" />
 </RelativeLayout>

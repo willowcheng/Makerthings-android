@@ -40,7 +40,7 @@ import android.net.Uri;
 import android.os.Handler;
 import android.util.Log;
 
-import org.openhab.habdroid.R;
+import me.willowcheng.makerthings.R;
 
 import java.io.File;
 import java.security.KeyStore;

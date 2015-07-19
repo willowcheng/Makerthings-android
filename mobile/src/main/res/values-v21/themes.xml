@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="HABDroid.Light" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+    <style name="NavDrawerTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="customMicIcon">@android:drawable/ic_btn_speak_now</item>
         <item name="widgetlistItemDivider">?android:dividerHorizontal</item>
-        <item name="android:colorPrimary">#FF5722</item>
-        <item name="android:colorAccent">#FF5722</item>
-        <item name="android:colorPrimaryDark">#BF360C</item>
-        <item name="colorPrimary">#FF5722</item>
-        <item name="colorAccent">#FF5722</item>
-        <item name="colorPrimaryDark">#BF360C</item>
+        <item name="android:colorPrimary">#F44336</item>
+        <item name="android:colorAccent">#03A9F4</item>
+        <item name="android:colorPrimaryDark">#D32F2F</item>
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
         <item name="frameWidgetDividerBackground">@drawable/material_divider</item>
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Here we setting appcompat’s actionBarStyle -->
+        <item name="windowActionBar">true</item>
+
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+    </style>
+
+    <!-- Splash screen application theme. -->
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Here we setting appcompat’s actionBarStyle -->
+        <item name="windowActionBar">false</item>
+
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
     </style>
 </resources>

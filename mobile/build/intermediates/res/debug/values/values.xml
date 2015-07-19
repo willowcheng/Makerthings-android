@@ -51,6 +51,12 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <color name="cardview_dark_background">#FF202020</color>
+    <color name="cardview_light_background">#FFFAFAFA</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/common_colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
@@ -156,6 +162,9 @@
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="theme_accent">#03A9F4</color>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_colors.xml -->
     <eat-comment/>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
@@ -179,6 +188,7 @@
     <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/><attr format="reference" name="closeItemLayout"/></declare-styleable>
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
     <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
     <declare-styleable name="ColorPicker"><attr format="integer" name="wheel_size"/><attr format="integer" name="pointer_size"/></declare-styleable>
     <declare-styleable name="CompatTextView"><attr format="reference|boolean" name="textAllCaps"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="topBottomBarArrowSize"/><attr format="dimension" name="middleBarArrowSize"/><attr format="dimension" name="barSize"/><attr format="dimension" name="thickness"/></declare-styleable>
@@ -246,6 +256,11 @@
     <eat-comment/>
     <dimen name="activity_horizontal_margin">0dp</dimen>
     <dimen name="activity_vertical_margin">0dp</dimen>
+    <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
@@ -260,8 +275,8 @@
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="widget_margin">0dp</dimen>
-    <dimen name="widgetlist_divider_left_margin">0dp</dimen>
-    <dimen name="widgetlist_divider_right_margin">0dp</dimen>
+    <dimen name="widgetlist_divider_left_margin">16dp</dimen>
+    <dimen name="widgetlist_divider_right_margin">16dp</dimen>
     <dimen name="widgetlist_fragment_left_margin">0dp</dimen>
     <dimen name="widgetlist_fragment_right_margin">0dp</dimen>
     <dimen name="widgetlist_item_left_margin">0dp</dimen>
@@ -319,7 +334,7 @@
     <string name="app_discoveryinbox_deviceunnamed">Unnamed device</string>
     <string name="app_discoveryinbox_ignore">Ignore</string>
     <string name="app_discoveryinbox_nothings">No new things</string>
-    <string name="app_name">openHAB</string>
+    <string name="app_name">Makerthings</string>
     <string name="app_notifications">Notifications</string>
     <string name="app_preferences_name">Settings</string>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/common_strings.xml -->
@@ -366,7 +381,7 @@
     <string name="error_connection_failed">Connection to host failed</string>
     <string name="error_empty_sitemap_list">openHAB returned empty sitemap list</string>
     <string name="error_network_not_available">Network is not available</string>
-    <string name="error_no_url">Please check that openHAB is running or configure openHAB URL or remote URL</string>
+    <string name="error_no_url">Please check that server is running or configure server URL</string>
     <string name="error_no_uuid">Unable to get openHAB UUID, connection failed</string>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values/analytics.xml -->
     <eat-comment/>
@@ -375,25 +390,25 @@
     <eat-comment/>
     <string name="info_conn_rem_url">Connecting to remote URL</string>
     <string name="info_conn_url">Connecting to configured URL</string>
-    <string name="info_demo_mode">HABDroid is running in demo mode. To connect to your openHAB please go to settings menu.</string>
-    <string name="info_discovery">Discovering openHAB. Please wait...</string>
+    <string name="info_demo_mode">Makerthings is running in demo mode. Go to settings menu to connect your server.</string>
+    <string name="info_discovery">Discovering Server...</string>
     <string name="info_not_set">Not set</string>
-    <string name="info_openhab_secret_label">openHAB Secret</string>
-    <string name="info_openhab_uuid_label">openHAB UUID</string>
-    <string name="info_openhab_version_label">openHAB Version</string>
-    <string name="info_voice_input">"openHAB, at your command!"</string>
+    <string name="info_openhab_secret_label">Secret</string>
+    <string name="info_openhab_uuid_label">UUID</string>
+    <string name="info_openhab_version_label">Version</string>
+    <string name="info_voice_input">"Makerthings, at your command!"</string>
     <string name="info_voice_recognized_text">"Recognized command: %1$s"</string>
     <string name="info_write_failed">Tag write error</string>
     <string name="info_write_tag">Touch the tag and keep it close until the confirmation message appear</string>
     <string name="info_write_tag_disabled">NFC is disabled. Please enable it in device settings menu.</string>
     <string name="info_write_tag_finished">Successfully finished</string>
     <string name="info_write_tag_progress">Writing the tag</string>
-    <string name="info_write_tag_unsupported">This device doesn\'t have NFC support :-(</string>
-    <string name="mainmenu_openhab_clearcache">Clear images cache</string>
-    <string name="mainmenu_openhab_info">openHAB info</string>
+    <string name="info_write_tag_unsupported">Sorry, your device doesn\'t have NFC support.</string>
+    <string name="mainmenu_openhab_clearcache">Clear cache</string>
+    <string name="mainmenu_openhab_info">About</string>
     <string name="mainmenu_openhab_preferences">Settings</string>
-    <string name="mainmenu_openhab_selectsitemap">Select default sitemap</string>
-    <string name="mainmenu_openhab_writetag">Write NFC tag</string>
+    <string name="mainmenu_openhab_selectsitemap">Default sitemap</string>
+    <string name="mainmenu_openhab_writetag">NFC Tag</string>
     <string name="mtm_accept_cert">Accept unknown Certificate?</string>
     <string name="mtm_decision_abort">Abort</string>
     <string name="mtm_decision_always">Always</string>
@@ -405,25 +420,25 @@
     <string name="settings_connection_title">Connection Settings</string>
     <string name="settings_display_title">Display Settings</string>
     <string name="settings_misc_title">Misc Settings</string>
-    <string name="settings_openhab_alturl">openHAB Remote URL</string>
+    <string name="settings_openhab_alturl">Cloud Server URL</string>
     <string name="settings_openhab_alturl_summary">Remote openHAB URL (used when local openHAB is unavailable)</string>
     <string name="settings_openhab_appversion">HABDroid Version</string>
     <string name="settings_openhab_demomode">Demo mode</string>
-    <string name="settings_openhab_demomode_summary">Run HABDroid in demo mode</string>
+    <string name="settings_openhab_demomode_summary">Run Makerthings in demo mode</string>
     <string name="settings_openhab_fullscreen">Full Screen</string>
     <string name="settings_openhab_fullscreen_summary">Display in fullscreen mode</string>
     <string name="settings_openhab_password">Password</string>
     <string name="settings_openhab_password_summary">openHAB password</string>
     <string name="settings_openhab_screentimeroff">Disable display timer</string>
-    <string name="settings_openhab_screentimeroff_summary">Disable display switch off timer when HABDroid is running</string>
+    <string name="settings_openhab_screentimeroff_summary">Display switch off timer when Makerthings is running</string>
     <string name="settings_openhab_sslcert">Ignore SSL certificate</string>
     <string name="settings_openhab_sslcert_summary">Ignore certificate validation during SSL handshake</string>
     <string name="settings_openhab_sslhost">Ignore SSL hostname</string>
     <string name="settings_openhab_sslhost_summary">Ignore hostname check during SSL handshake</string>
     <string name="settings_openhab_theme">HABDroid Theme</string>
-    <string name="settings_openhab_url">openHAB URL</string>
+    <string name="settings_openhab_url">Server URL</string>
     <string name="settings_openhab_url_summary">Manually configured openHAB URL. Disables autodiscovery if configured.</string>
-    <string name="settings_openhab_username">Username</string>
+    <string name="settings_openhab_username">Email</string>
     <string name="settings_openhab_username_summary">openHAB username</string>
     <string name="settings_ringtone">Ring tone</string>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_strings.xml -->
@@ -432,12 +447,23 @@
     <string name="store_picture_title">Save image</string>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="title_activity_openhabinfo">openHAB Information</string>
-    <string name="title_activity_openhabwritetag">Write NFC tag</string>
-    <string name="title_voice_widget">OpenHAB Voice Commands</string>
+    <string name="title_activity_openhabinfo">About</string>
+    <string name="title_activity_openhabwritetag">NFC Tag</string>
+    <string name="title_voice_widget">Makerthings Voice Commands</string>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_strings.xml -->
     <eat-comment/>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
+    <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Here we setting appcompat’s actionBarStyle -->
+        <item name="windowActionBar">true</item>
+
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+    </style>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
@@ -1192,24 +1218,30 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
+    <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
     <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values/themes.xml -->
     <eat-comment/>
-    <style name="HABDroid.Dark" parent="@style/Theme.AppCompat">
+    <style name="NavDrawerTheme" parent="@style/Theme.AppCompat.Light">
         <item name="customMicIcon">@android:drawable/ic_btn_speak_now</item>
         <item name="widgetlistItemDivider">?android:dividerHorizontal</item>
-        <item name="colorPrimary">#9E9E9E</item>
-        <item name="colorAccent">#9E9E9E</item>
-        <item name="colorPrimaryDark">#212121</item>
-        <item name="frameWidgetDividerBackground">@drawable/material_divider_dark</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="windowActionBar">false</item>
-    </style>
-    <style name="HABDroid.Light" parent="@style/Theme.AppCompat.Light">
-        <item name="customMicIcon">@android:drawable/ic_btn_speak_now</item>
-        <item name="widgetlistItemDivider">?android:dividerHorizontal</item>
-        <item name="colorPrimary">#FF5722</item>
-        <item name="colorAccent">#FF5722</item>
-        <item name="colorPrimaryDark">#BF360C</item>
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
         <item name="frameWidgetDividerBackground">@drawable/material_divider</item>
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
@@ -1382,6 +1414,19 @@
     <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="android:Widget">
         <item name="android:layout_marginLeft">@dimen/abc_dropdownitem_text_padding_left</item>
     </style>
+    <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Here we setting appcompat’s actionBarStyle -->
+        <item name="windowActionBar">false</item>
+
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+    </style>
+    <!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <eat-comment/>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
     <style name="TextAppearance.AppCompat.Body2" parent="Base.TextAppearance.AppCompat.Body2"/>
@@ -1576,8 +1621,8 @@
         <item name="lineHeightUnselected">2dp</item>
         <item name="lineHeightSelected">2dp</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">41dp</item>
-        <item name="android:textSize">18dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:textSize">14sp</item>
         <item name="textDistanceFromLine">12dp</item>
         <item name="android:stretchColumns">0</item>
         <item name="android:orientation">horizontal</item>

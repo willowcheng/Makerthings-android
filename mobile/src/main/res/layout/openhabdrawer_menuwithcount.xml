@@ -7,7 +7,7 @@
     android:minHeight="48dp"
     android:gravity="center_vertical"
     android:layout_gravity="center_vertical">
-    <org.openhab.habdroid.util.MySmartImageView
+    <me.willowcheng.makerthings.util.MySmartImageView
         android:layout_width="32dp"
         android:layout_height="match_parent"
         android:id="@+id/itemimage"
@@ -17,14 +17,14 @@
         android:maxHeight="24dp"
         android:maxWidth="32dp"
         android:scaleType="fitCenter"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="16dp"
         android:adjustViewBounds="true"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_toRightOf="@+id/itemimage"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="32dp"
         android:layout_centerVertical="true"
         android:orientation="horizontal"
         android:gravity="left|center_vertical"
@@ -33,6 +33,7 @@
             android:text="Favorites"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#de000000"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_gravity="left|center_vertical"
             />
@@ -41,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_toRightOf="@+id/itemimage"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="32dp"
         android:layout_centerVertical="true"
         android:orientation="horizontal"
         android:gravity="right|center_vertical"
@@ -52,7 +53,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_gravity="right|center_vertical"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="16dp"
             />
     </LinearLayout>
 </RelativeLayout>

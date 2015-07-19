@@ -2,13 +2,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="@string/settings_connection_title">
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:disableDependentsState="true"
             android:key="default_openhab_demomode"
             android:summary="@string/settings_openhab_demomode_summary"
             android:title="@string/settings_openhab_demomode" />
         <EditTextPreference
-            android:defaultValue=""
+            android:defaultValue="http://137.122.91.54:8080"
             android:dependency="default_openhab_demomode"
             android:key="default_openhab_url"
             android:summary="@string/settings_openhab_url_summary"
@@ -16,7 +16,8 @@
             android:inputType="textNoSuggestions"
             />
         <EditTextPreference
-            android:defaultValue=""
+            android:enabled="false"
+            android:defaultValue="https://my.openhab.org"
             android:dependency="default_openhab_demomode"
             android:key="default_openhab_alturl"
             android:summary="@string/settings_openhab_alturl_summary"
@@ -24,7 +25,8 @@
             android:inputType="textNoSuggestions"
             />
         <EditTextPreference
-            android:defaultValue=""
+            android:enabled="false"
+            android:defaultValue="lchen156@uottawa.ca"
             android:dependency="default_openhab_demomode"
             android:key="default_openhab_username"
             android:summary="@string/settings_openhab_username_summary"
@@ -32,31 +34,32 @@
             android:inputType="textNoSuggestions"
             />
         <EditTextPreference
-            android:defaultValue=""
+            android:enabled="false"
+            android:defaultValue="12345678"
             android:dependency="default_openhab_demomode"
             android:inputType="textPassword"
             android:key="default_openhab_password"
             android:summary="@string/settings_openhab_password_summary"
             android:title="@string/settings_openhab_password"
             />
-        <CheckBoxPreference
-            android:defaultValue="false"
-            android:key="default_openhab_sslcert"
-            android:summary="@string/settings_openhab_sslcert_summary"
-            android:title="@string/settings_openhab_sslcert" />
-        <CheckBoxPreference
-            android:defaultValue="true"
-            android:key="default_openhab_sslhost"
-            android:summary="@string/settings_openhab_sslhost_summary"
-            android:title="@string/settings_openhab_sslhost" />
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="default_openhab_sslcert"-->
+            <!--android:summary="@string/settings_openhab_sslcert_summary"-->
+            <!--android:title="@string/settings_openhab_sslcert" />-->
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="default_openhab_sslhost"-->
+            <!--android:summary="@string/settings_openhab_sslhost_summary"-->
+            <!--android:title="@string/settings_openhab_sslhost" />-->
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/settings_display_title">
-        <ListPreference
-            android:key="default_openhab_theme"
-            android:title="@string/settings_openhab_theme"
-            android:defaultValue="dark"
-            android:entries="@array/themeArray"
-            android:entryValues="@array/themeValues" />
+        <!--<ListPreference-->
+            <!--android:key="default_openhab_theme"-->
+            <!--android:title="@string/settings_openhab_theme"-->
+            <!--android:defaultValue="dark"-->
+            <!--android:entries="@array/themeArray"-->
+            <!--android:entryValues="@array/themeValues" />-->
         <CheckBoxPreference
             android:defaultValue="false"
             android:key="default_openhab_screentimeroff"
@@ -75,11 +78,11 @@
             android:ringtoneType="ringtone|notification"
             android:showSilent="true"
             android:title="@string/settings_ringtone"></RingtonePreference>
-        <EditTextPreference
-            android:enabled="false"
-            android:key="default_openhab_appversion"
-            android:persistent="false"
-            android:shouldDisableView="false"
-            android:title="@string/settings_openhab_appversion" />
+        <!--<EditTextPreference-->
+            <!--android:enabled="false"-->
+            <!--android:key="default_openhab_appversion"-->
+            <!--android:persistent="false"-->
+            <!--android:shouldDisableView="false"-->
+            <!--android:title="@string/settings_openhab_appversion" />-->
     </PreferenceCategory>
 </PreferenceScreen>

@@ -1,0 +1,59 @@
+package me.willowcheng.makerthings.ui;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.TextView;
+
+import me.willowcheng.makerthings.R;
+import me.willowcheng.makerthings.model.OpenHABBinding;
+
+import java.util.ArrayList;
+
+/**
+ * Created by belovictor on 23/05/15.
+ */
+public class OpenHABDiscoveryAdapter extends ArrayAdapter<OpenHABBinding> {
+    private int mResource;
+    private String mOpenHABUsername;
+    private String mOpenHABPassword;
+    private String mOpenHABBaseUrl;
+
+    public OpenHABDiscoveryAdapter(Context context, int resource, ArrayList<OpenHABBinding> objects) {
+        super(context, resource, objects);
+        mResource = resource;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        OpenHABBinding binding = getItem(position);
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(mResource, parent, false);
+        }
+        TextView nameView = (TextView)convertView.findViewById(R.id.bindingName);
+        TextView descriptionView = (TextView)convertView.findViewById(R.id.bindingDescription);
+        nameView.setText(binding.getName());
+        descriptionView.setText(binding.getDescription());
+        return convertView;
+    }
+
+    public String getOpenHABUsername() {
+        return mOpenHABUsername;
+    }
+
+    public void setOpenHABUsername(String openHABUsername) {
+        this.mOpenHABUsername = openHABUsername;
+    }
+
+    public String getOpenHABPassword() {
+        return mOpenHABPassword;
+    }
+
+    public void setOpenHABPassword(String openHABPassword) {
+        this.mOpenHABPassword = openHABPassword;
+    }
+
+
+}
