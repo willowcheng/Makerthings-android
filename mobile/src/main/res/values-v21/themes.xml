@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="NavDrawerTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <style name="NavDrawerTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="customMicIcon">@android:drawable/ic_btn_speak_now</item>
         <item name="widgetlistItemDivider">?android:dividerHorizontal</item>
         <item name="android:colorPrimary">#F44336</item>
