@@ -455,7 +455,7 @@
     <eat-comment/>
     <string name="info_conn_rem_url">Connecting to remote URL</string>
     <string name="info_conn_url">Connecting to configured URL</string>
-    <string name="info_demo_mode">Makerthings is running in demo mode. Go to settings menu to connect your server.</string>
+    <string name="info_demo_mode">Makerthings is running in default mode. Go to settings menu to connect your server.</string>
     <string name="info_discovery">Discovering Server...</string>
     <string name="info_not_set">Not set</string>
     <string name="info_openhab_secret_label">Secret</string>
@@ -480,16 +480,16 @@
     <string name="mtm_decision_once">Once</string>
     <string name="mtm_notification">Certificate verification</string>
     <string name="nfc_dialog_title">Please select NFC tag action</string>
-    <string name="openhab_demo_url">https://demo.openhab.org:8443/</string>
+    <string name="openhab_demo_url">http://137.122.91.54:8080/</string>
     <string name="openhab_service_type">_openhab-server-ssl._tcp.local.</string>
-    <string name="settings_connection_title">Connection Settings</string>
+    <string name="settings_connection_title">Server Settings</string>
     <string name="settings_display_title">Display Settings</string>
     <string name="settings_misc_title">Misc Settings</string>
-    <string name="settings_openhab_alturl">Cloud Server URL</string>
+    <string name="settings_openhab_alturl">My OpenHAB URL</string>
     <string name="settings_openhab_alturl_summary">Remote openHAB URL (used when local openHAB is unavailable)</string>
     <string name="settings_openhab_appversion">HABDroid Version</string>
-    <string name="settings_openhab_demomode">Demo mode</string>
-    <string name="settings_openhab_demomode_summary">Run Makerthings in demo mode</string>
+    <string name="settings_openhab_demomode">Default mode</string>
+    <string name="settings_openhab_demomode_summary">Run Makerthings in default mode</string>
     <string name="settings_openhab_fullscreen">Full Screen</string>
     <string name="settings_openhab_fullscreen_summary">Display in fullscreen mode</string>
     <string name="settings_openhab_password">Password</string>
@@ -501,7 +501,7 @@
     <string name="settings_openhab_sslhost">Ignore SSL hostname</string>
     <string name="settings_openhab_sslhost_summary">Ignore hostname check during SSL handshake</string>
     <string name="settings_openhab_theme">HABDroid Theme</string>
-    <string name="settings_openhab_url">Server URL</string>
+    <string name="settings_openhab_url">Local Server URL</string>
     <string name="settings_openhab_url_summary">Manually configured openHAB URL. Disables autodiscovery if configured.</string>
     <string name="settings_openhab_username">Email</string>
     <string name="settings_openhab_username_summary">openHAB username</string>

@@ -31,392 +31,29 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0e5a648-ca2f-4eaf-9200-b7f5939631fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/MaterialDesign_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/library_2_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes-991bdac5edfcdfd361c077d46233b66d09ee00a0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes-c1299da7e27c55b10ff0aba1ba114b5c270d6dff.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/crittercism-android-agent-5.3.1-rc-1-1a3415301a0e8ae460e631595416b65ad8256ea5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c390563e7b3e5eb3963221c78f03fa61d56c6b42.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-bf7857ae82debddaeb412720e61f5b3bb5702f51.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout-v11/abc_screen_content_include.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_activity_chooser_view_include.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/BindingThingTypesAdapter.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/BindingThingTypesAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/BindingThingTypesFragment.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/BindingThingTypesFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/core/GcmIntentService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/core/GcmIntentService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/de/duenndns/ssl/MemorizingTrustManager.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/de/duenndns/ssl/MemorizingTrustManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABBindingAdapter.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABBindingAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABBindingFragment.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABBindingFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABDiscoveryAdapter.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABDiscoveryAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABDiscoveryFragment.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABDiscoveryFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABDiscoveryInboxAdapter.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABDiscoveryInboxAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABDiscoveryInboxFragment.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABDiscoveryInboxFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/drawer/OpenHABDrawerAdapter.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/drawer/OpenHABDrawerAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABInfoActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABInfoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$3.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$6.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$7.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABMainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABNotificationAdapter.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABNotificationAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABNotificationFragment.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABNotificationFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity$2.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/core/OpenHABTracker.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/core/OpenHABTracker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/core/OpenHABVoiceService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/core/OpenHABVoiceService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWidgetAdapter.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWidgetAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWidgetListFragment$2.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWidgetListFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWidgetListFragment.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWidgetListFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/software/shell/fab/R$anim.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/software/shell/fab/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$anim.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$array.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$array.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/cardview/R$attr.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/cardview/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$attr.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$attr.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$bool.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$color.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$color.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/cardview/R$dimen.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/cardview/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/software/shell/fab/R$dimen.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/software/shell/fab/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$dimen.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/software/shell/fab/R$drawable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/software/shell/fab/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$drawable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$id.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$integer.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$integer.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$layout.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$menu.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$mipmap.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$raw.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$string.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$string.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/cardview/R$style.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/cardview/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$style.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$style.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/cardview/R$styleable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/cardview/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$styleable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/com/google/android/gms/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$styleable.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$xml.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/SignupActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/SignupActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/SplashScreen$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/SplashScreen$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/SplashScreen.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/SplashScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/util/Util.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/util/Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/VoiceWidget.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/ui/VoiceWidget.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_clear_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_clear_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_clear_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-mdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-mdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_popup_background_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_popup_background_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_popup_background_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_popup_background_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-mdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-mdpi/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xhdpi/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-ldrtl-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png" />
+    <list default="true" id="d0e5a648-ca2f-4eaf-9200-b7f5939631fe" name="Default" comment="Add new material style for edit text and button">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/BuildConfig.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/me/willowcheng/makerthings/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/mobile/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug-unaligned.apk" afterPath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug.apk" afterPath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/mobile/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABMainActivity.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/android/support/v7/cardview/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/android/support/v7/cardview/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/com/google/android/gms/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/com/software/shell/fab/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/com/software/shell/fab/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/me/willowcheng/makerthings/R.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/r/debug/me/willowcheng/makerthings/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_bar_title_item.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_bar_up_container.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_bar_up_container.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_bar_view_list_nav_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_menu_layout.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_mode_bar.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_mode_close_item_material.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_action_mode_close_item_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_activity_chooser_view.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_background_cache_hint_selector_material_dark.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_background_cache_hint_selector_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_background_cache_hint_selector_material_light.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_background_cache_hint_selector_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_btn_check_material.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_btn_check_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_btn_radio_material.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_btn_radio_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_cab_background_internal_bg.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_cab_background_internal_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_cab_background_top_material.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_cab_background_top_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_edit_text_material.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_edit_text_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_expanded_menu_layout.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_expanded_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_fade_in.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_fade_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_fade_out.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_fade_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_item_background_holo_light.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_list_menu_item_layout.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_list_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_primary_text_disable_only_material_dark.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_primary_text_disable_only_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_primary_text_disable_only_material_light.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_primary_text_disable_only_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_primary_text_material_dark.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_primary_text_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_primary_text_material_light.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_primary_text_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_screen_content_include.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_screen_content_include.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_screen_simple.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_screen_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_screen_simple_overlay_action_mode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_screen_toolbar.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_screen_toolbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_search_url_text.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_search_url_text.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_search_view.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_secondary_text_material_dark.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_secondary_text_material_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_secondary_text_material_light.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/color/abc_secondary_text_material_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/abc_simple_dropdown_hint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_slide_in_bottom.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_slide_in_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_slide_in_top.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_slide_in_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_slide_out_bottom.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_slide_out_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_slide_out_top.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/anim/abc_slide_out_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_switch_thumb_material.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_switch_thumb_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_tab_indicator_material.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_tab_indicator_material.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_textfield_search_material.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/drawable/abc_textfield_search_material.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/buildConfig/androidTest/debug/me/willowcheng/makerthings/test/BuildConfig.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/buildConfig/androidTest/debug/me/willowcheng/makerthings/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/generated/source/buildConfig/debug/me/willowcheng/makerthings/BuildConfig.java" afterPath="$PROJECT_DIR$/mobile/build/generated/source/buildConfig/debug/me/willowcheng/makerthings/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/activity_signup.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/activity_signup.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_signup.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_signup.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/activity_splash.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/layout/activity_splash.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build.gradle" afterPath="$PROJECT_DIR$/mobile/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/mobile/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeResources/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/mobile.iml" afterPath="$PROJECT_DIR$/mobile/mobile.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/support_simple_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/layout/support_simple_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values/themes.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/themes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values-v21/themes.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values-v21/themes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-af/values-af.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-af/values-af.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-am/values-am.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-am/values-am.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ar/values-ar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-bg/values-bg.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-bg/values-bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-bn-rBD/values-bn-rBD.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-bn-rBD/values-bn-rBD.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ca/values-ca.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ca/values-ca.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-cs/values-cs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-da/values-da.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-da/values-da.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-de/values-de.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-de/values-de.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-el/values-el.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-el/values-el.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-en-rGB/values-en-rGB.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-en-rGB/values-en-rGB.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-en-rIN/values-en-rIN.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-en-rIN/values-en-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-es-rUS/values-es-rUS.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-es-rUS/values-es-rUS.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-es/values-es.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-es/values-es.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-et-rEE/values-et-rEE.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-et-rEE/values-et-rEE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-eu-rES/values-eu-rES.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-eu-rES/values-eu-rES.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-fa/values-fa.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-fa/values-fa.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-fi/values-fi.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-fi/values-fi.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-fr-rCA/values-fr-rCA.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-fr-rCA/values-fr-rCA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-fr/values-fr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-gl-rES/values-gl-rES.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-gl-rES/values-gl-rES.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-hi/values-hi.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-hi/values-hi.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-hr/values-hr.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-hr/values-hr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-hu/values-hu.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-hu/values-hu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-hy-rAM/values-hy-rAM.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-hy-rAM/values-hy-rAM.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-in/values-in.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-in/values-in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-is-rIS/values-is-rIS.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-is-rIS/values-is-rIS.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-it/values-it.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-it/values-it.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-iw/values-iw.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-iw/values-iw.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ja/values-ja.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ka-rGE/values-ka-rGE.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ka-rGE/values-ka-rGE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-kk-rKZ/values-kk-rKZ.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-kk-rKZ/values-kk-rKZ.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-km-rKH/values-km-rKH.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-km-rKH/values-km-rKH.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-kn-rIN/values-kn-rIN.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-kn-rIN/values-kn-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ko/values-ko.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ky-rKG/values-ky-rKG.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ky-rKG/values-ky-rKG.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-land/values-land.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-land/values-land.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-large/values-large.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-large/values-large.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-lo-rLA/values-lo-rLA.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-lo-rLA/values-lo-rLA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-lt/values-lt.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-lt/values-lt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-lv/values-lv.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-lv/values-lv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-mk-rMK/values-mk-rMK.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-mk-rMK/values-mk-rMK.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ml-rIN/values-ml-rIN.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ml-rIN/values-ml-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-mn-rMN/values-mn-rMN.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-mn-rMN/values-mn-rMN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-mr-rIN/values-mr-rIN.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-mr-rIN/values-mr-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ms-rMY/values-ms-rMY.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ms-rMY/values-ms-rMY.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-my-rMM/values-my-rMM.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-my-rMM/values-my-rMM.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-nb/values-nb.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-nb/values-nb.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ne-rNP/values-ne-rNP.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ne-rNP/values-ne-rNP.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-nl/values-nl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-pl/values-pl.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-pl/values-pl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-port/values-port.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-port/values-port.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-pt-rPT/values-pt-rPT.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-pt-rPT/values-pt-rPT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-pt/values-pt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ro/values-ro.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ro/values-ro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ru/values-ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-si-rLK/values-si-rLK.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-si-rLK/values-si-rLK.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sk/values-sk.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sk/values-sk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sl/values-sl.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sl/values-sl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sr/values-sr.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sr/values-sr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sv/values-sv.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sv/values-sv.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sw/values-sw.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sw/values-sw.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sw600dp/values-sw600dp.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-sw600dp/values-sw600dp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ta-rIN/values-ta-rIN.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ta-rIN/values-ta-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-te-rIN/values-te-rIN.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-te-rIN/values-te-rIN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-th/values-th.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-th/values-th.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-tl/values-tl.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-tl/values-tl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-tr/values-tr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-uk/values-uk.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-uk/values-uk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ur-rPK/values-ur-rPK.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-ur-rPK/values-ur-rPK.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-uz-rUZ/values-uz-rUZ.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-uz-rUZ/values-uz-rUZ.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-v11/values-v11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-v14/values-v14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-v17/values-v17.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-v17/values-v17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-v21/values-v21.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-vi/values-vi.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-vi/values-vi.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-w360dp/values-w360dp.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-w360dp/values-w360dp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-w480dp/values-w480dp.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-w480dp/values-w480dp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-w500dp/values-w500dp.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-w500dp/values-w500dp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-w600dp/values-w600dp.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-w600dp/values-w600dp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-w720dp/values-w720dp.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-w720dp/values-w720dp.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-xlarge-land/values-xlarge-land.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-xlarge-land/values-xlarge-land.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-xlarge/values-xlarge.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-xlarge/values-xlarge.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-zh-rCN/values-zh-rCN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-zh-rHK/values-zh-rHK.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-zh-rHK/values-zh-rHK.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-zh-rTW/values-zh-rTW.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-zh-rTW/values-zh-rTW.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-zu/values-zu.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values-zu/values-zu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/xml/preferences.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/xml/preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -446,24 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="openhabinfo.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/openhabinfo.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activity_splash.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_splash.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1034484">
-              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="57" />
+            <state vertical-scroll-proportion="-13.965517">
+              <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -472,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_signup.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_signup.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_signup.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.175">
-              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+            <state vertical-scroll-proportion="-14.4827585">
+              <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -488,8 +112,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state vertical-scroll-proportion="-6.6">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -515,31 +139,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="themes.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/themes.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33240998">
+              <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preferences.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
+              <folding>
+                <element signature="e#155#190#0" expanded="true" />
+                <element signature="e#389#432#0" expanded="true" />
+                <element signature="e#459#494#0" expanded="true" />
+                <element signature="e#694#732#0" expanded="true" />
+                <element signature="e#759#789#0" expanded="true" />
+                <element signature="e#1165#1206#0" expanded="true" />
+                <element signature="e#1233#1266#0" expanded="true" />
+                <element signature="e#1533#1576#0" expanded="true" />
+                <element signature="e#1603#1638#0" expanded="true" />
+                <element signature="e#1950#1993#0" expanded="true" />
+                <element signature="e#2020#2055#0" expanded="true" />
+                <element signature="e#2135#2167#0" expanded="true" />
+                <element signature="e#2640#2689#0" expanded="true" />
+                <element signature="e#2716#2757#0" expanded="true" />
+                <element signature="e#2911#2956#0" expanded="true" />
+                <element signature="e#2983#3020#0" expanded="true" />
+                <element signature="e#3088#3117#0" expanded="true" />
+                <element signature="e#3265#3307#0" expanded="true" />
+                <element signature="e#3334#3368#0" expanded="true" />
+                <element signature="e#3518#3560#0" expanded="true" />
+                <element signature="e#3587#3621#0" expanded="true" />
+                <element signature="e#3868#3895#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenHABPreferencesActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -2290,7 +1947,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5749601056000" />
+        <entry key="$PROJECT_DIR$" value="5749602571000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2718,7 +2375,6 @@
         <option value="$PROJECT_DIR$/mobile/src/main/res/values/segcontrol_styles.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/menu/main_menu.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_videoitem.xml" />
-        <option value="$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml" />
         <option value="$PROJECT_DIR$/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/res/values-v21/values.xml" />
         <option value="$PROJECT_DIR$/wear/build.gradle" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/openhabdrawer_sitemap_item.xml" />
@@ -2736,18 +2392,19 @@
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_switchitem.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_textitem.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwidgetlist_webitem.xml" />
-        <option value="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABInfoActivity.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABWriteTagActivity.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/openhabwritetag.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/openhabinfo.xml" />
-        <option value="$PROJECT_DIR$/mobile/build.gradle" />
         <option value="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABMainActivity.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/values-v21/themes.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/values/themes.xml" />
-        <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_splash.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_signup.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/mobile/build.gradle" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -2822,6 +2479,10 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2840,10 +2501,6 @@
               <option name="myItemId" value="values" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2857,10 +2514,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2923,8 +2576,26 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="makerthings" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Makerthings" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3459,7 +3130,13 @@
       <option name="project" value="LOCAL" />
       <updated>1437339890382</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add new material style for edit text and button">
+      <created>1437973431318</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1437973431318</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3468,7 +3145,7 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3478,7 +3155,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.4838449" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.4838449" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3513,7 +3190,9 @@
     <MESSAGE value="Merge branch 'develop'&#10;&#10;# Conflicts:&#10;#&#9;.idea/libraries/cardview_v7_21_0_2.xml&#10;#&#9;.idea/workspace.xml&#10;" />
     <MESSAGE value="Add new UI updates from Material Design guideline" />
     <MESSAGE value="Use new logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use new logo" />
+    <MESSAGE value="Add new material style for edit text and button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new material style for edit text and button" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3522,14 +3201,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/segcontrol_styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3550,14 +3221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3856,14 +3519,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABInfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3920,14 +3575,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3976,10 +3623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_splash.xml">
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_signup.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1034484">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="57" />
+        <state vertical-scroll-proportion="-14.4827585">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -3987,15 +3634,70 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_signup.xml">
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_splash.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.175">
-          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        <state vertical-scroll-proportion="-13.965517">
+          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/me/willowcheng/makerthings/ui/OpenHABPreferencesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
+          <folding>
+            <element signature="e#155#190#0" expanded="true" />
+            <element signature="e#389#432#0" expanded="true" />
+            <element signature="e#459#494#0" expanded="true" />
+            <element signature="e#694#732#0" expanded="true" />
+            <element signature="e#759#789#0" expanded="true" />
+            <element signature="e#1165#1206#0" expanded="true" />
+            <element signature="e#1233#1266#0" expanded="true" />
+            <element signature="e#1533#1576#0" expanded="true" />
+            <element signature="e#1603#1638#0" expanded="true" />
+            <element signature="e#1950#1993#0" expanded="true" />
+            <element signature="e#2020#2055#0" expanded="true" />
+            <element signature="e#2135#2167#0" expanded="true" />
+            <element signature="e#2640#2689#0" expanded="true" />
+            <element signature="e#2716#2757#0" expanded="true" />
+            <element signature="e#2911#2956#0" expanded="true" />
+            <element signature="e#2983#3020#0" expanded="true" />
+            <element signature="e#3088#3117#0" expanded="true" />
+            <element signature="e#3265#3307#0" expanded="true" />
+            <element signature="e#3334#3368#0" expanded="true" />
+            <element signature="e#3518#3560#0" expanded="true" />
+            <element signature="e#3587#3621#0" expanded="true" />
+            <element signature="e#3868#3895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33240998">
+          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

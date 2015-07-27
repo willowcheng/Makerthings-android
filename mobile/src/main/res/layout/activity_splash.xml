@@ -75,7 +75,7 @@
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:background="#727272"
-                android:text="Log in"
+                android:text="LOG IN"
                 android:layout_marginRight="24dp"
                 android:onClick="logIn"
                 android:textColor="#FFF" />
@@ -85,7 +85,7 @@
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:background="#F44336"
-                android:text="Sign up"
+                android:text="SIGN UP"
                 android:onClick="signUp"
                 android:textColor="#FFF" />
 
