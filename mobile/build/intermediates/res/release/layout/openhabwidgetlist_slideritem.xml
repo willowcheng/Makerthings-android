@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="56dp"
+    android:background="?android:activatedBackgroundIndicator"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/widgetlist_item_left_margin"
+    android:paddingRight="@dimen/widgetlist_item_right_margin"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/sliderleftlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true">
+
+        <me.willowcheng.makerthings.util.MySmartImageView
+            android:id="@+id/widgetimage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/widgetlabel"
+            android:layout_width="wrap_content"
+            android:text="Slider"
+            android:layout_marginLeft="16dp"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#de000000" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/sliderseekbar"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:max="100"></SeekBar>
+
+    <LinearLayout
+        android:id="@+id/listdivider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/widgetlist_divider_left_margin"
+        android:layout_marginRight="@dimen/widgetlist_divider_right_margin"
+        android:background="?android:attr/listDivider"
+        android:orientation="horizontal" />
+</RelativeLayout>
+<!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/layout/openhabwidgetlist_slideritem.xml -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mainmenu_voice_recognition"
+        android:icon="@drawable/ic_keyboard_voice_white_48dp"
+        android:orderInCategory="100"
+        android:title="Voice Recognition"
+        app:showAsAction="always" />
+    <!--<item-->
+        <!--android:id="@+id/mainmenu_openhab_selectsitemap"-->
+        <!--android:title="@string/mainmenu_openhab_selectsitemap" />-->
+    <item
+        android:id="@+id/mainmenu_openhab_writetag"
+        android:title="@string/mainmenu_openhab_writetag" />
+
+    <!--<item-->
+    <!--android:id="@+id/mainmenu_openhab_clearcache"-->
+    <!--android:title="@string/mainmenu_openhab_clearcache" />-->
+    <item
+        android:id="@+id/mainmenu_openhab_preferences"
+        android:icon="@drawable/ic_settings_white_48dp"
+        android:title="@string/mainmenu_openhab_preferences"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mainmenu_signout"
+        android:title="Sign Out" />
+
+    <item
+        android:id="@+id/mainmenu_openhab_info"
+        android:title="@string/mainmenu_openhab_info" />
+
+
+
+</menu>
+<!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/menu/main_menu.xml -->

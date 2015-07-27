@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="72dp"
+    android:background="@drawable/list_selector"
+    android:paddingLeft="@dimen/widgetlist_item_left_margin"
+    android:paddingRight="@dimen/widgetlist_item_right_margin">
+
+    <me.willowcheng.makerthings.util.MySmartImageView
+        android:id="@+id/widgetimage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/widgetimage"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widgetlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text"
+            android:textSize="16sp"
+            android:textColor="#de000000" />
+
+        <TextView
+            android:id="@+id/widgetvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/widgetlabel"
+            android:text="Value"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/listdivider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/widgetlist_divider_left_margin"
+        android:layout_marginRight="@dimen/widgetlist_divider_right_margin"
+        android:background="?attr/widgetlistItemDivider"
+        android:orientation="horizontal" />
+</RelativeLayout>
+<!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/layout/openhabwidgetlist_textitem.xml -->

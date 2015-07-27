@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:paddingLeft="@dimen/widgetlist_item_left_margin"
+    android:paddingRight="@dimen/widgetlist_item_right_margin"
+    android:minHeight="56dp"
+    >
+    <TextView
+        android:id="@+id/widgetlabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text="shdlasd"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F44336"
+        android:textStyle="bold" />
+</RelativeLayout><!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/layout/openhabwidgetlist_frameitem.xml -->

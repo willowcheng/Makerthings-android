@@ -69,7 +69,7 @@ public class OpenHABWriteTagActivity extends ActionBarActivity {
         TextView writeTagMessage = (TextView) findViewById(R.id.write_tag_message);
         if (!this.getPackageManager().hasSystemFeature("android.hardware.nfc")) {
             writeTagMessage.setText(R.string.info_write_tag_unsupported);
-            writeTagImage.setImageDrawable(getResources().getDrawable(R.drawable.ic_nfc_disable_100));
+            writeTagImage.setImageDrawable(getResources().getDrawable(R.drawable.nfc_disable_logo));
         } else if (NfcAdapter.getDefaultAdapter(this) != null) {
             if (!NfcAdapter.getDefaultAdapter(this).isEnabled()) {
                 writeTagMessage.setText(R.string.info_write_tag_disabled);
