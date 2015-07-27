@@ -90,7 +90,7 @@ public class OpenHABTracker implements AsyncServiceResolverListener {
         NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
         if (activeNetworkInfo != null) {
             if (settings.getBoolean(Constants.PREFERENCE_DEMOMODE, false)) {
-                mOpenHABUrl = mCtx.getString(R.string.openhab_demo_url);
+                mOpenHABUrl = mCtx.getSharedPreferences("local", mCtx.MODE_PRIVATE).getString("default_URL", "https://demo.openhab.org:8443/");
                 Log.d(TAG, "Demo mode, url = " + mOpenHABUrl);
                 openHABTracked(mOpenHABUrl, mCtx.getString(R.string.info_demo_mode));
                 return;

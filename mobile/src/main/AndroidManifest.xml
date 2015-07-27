@@ -43,13 +43,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.SignupActivity"
-            android:theme="@style/SplashScreenTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.SplashScreen" />
-        </activity>
-        <activity
             android:name="me.willowcheng.makerthings.ui.OpenHABPreferencesActivity"
             android:label="@string/app_preferences_name">
             <meta-data

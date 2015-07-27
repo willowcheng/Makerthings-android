@@ -125,7 +125,7 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
 //    private static MyAsyncHttpClient mAsyncHttpClient;
     private static AsyncHttpClient mAsyncHttpClient = new AsyncHttpClient();
     // Base URL of current openHAB connection
-    private String openHABBaseUrl = "https://demo.openhab.org:8443/";
+    private String openHABBaseUrl;
     // openHAB username
     private String openHABUsername = "";
     // openHAB password
@@ -192,8 +192,10 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.d(TAG, "onCreate()");
+        openHABBaseUrl = getSharedPreferences("local", MODE_PRIVATE).getString("default_URL", "https://demo.openhab.org:8443/");
+        Log.d(TAG, "Base URL: " + openHABBaseUrl);
+
         // Check if we are in development mode
-        perPreferences = getSharedPreferences("pref", this.MODE_PRIVATE);
         isDeveloper = false;
         // Set default values, false means do it one time during the very first launch
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
@@ -828,9 +830,7 @@ public class OpenHABMainActivity extends ActionBarActivity implements OnWidgetSe
 //                return true;
             case R.id.mainmenu_signout:
                 Intent intent = new Intent(this, SplashScreen.class);
-                SharedPreferences.Editor editor = perPreferences.edit();
-                editor.putBoolean("account_login", false);
-                editor.apply();
+                intent.putExtra("restart", true);
                 startActivity(intent);
                 finish();
                 return true;

@@ -78,12 +78,10 @@ ADDED from AndroidManifest.xml:26:5
 application
 ADDED from AndroidManifest.xml:30:5
 MERGED from com.google.android.gms:play-services:6.5.87:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.android.support:appcompat-v7:22.2.0:22:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
 MERGED from com.android.support:cardview-v7:21.0.2:16:5
-MERGED from com.android.support:appcompat-v7:22.2.0:22:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
 MERGED from com.github.navasmdc:MaterialDesign:1.5:11:5
 	android:label
 		ADDED from AndroidManifest.xml:34:9
@@ -113,9 +111,9 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:42:17
 	android:name
 		ADDED from AndroidManifest.xml:42:27
-activity#me.willowcheng.makerthings.ui.SignupActivity
+activity#me.willowcheng.makerthings.ui.OpenHABPreferencesActivity
 ADDED from AndroidManifest.xml:45:9
-	android:theme
+	android:label
 		ADDED from AndroidManifest.xml:47:13
 	android:name
 		ADDED from AndroidManifest.xml:46:13
@@ -125,130 +123,121 @@ ADDED from AndroidManifest.xml:48:13
 		ADDED from AndroidManifest.xml:50:17
 	android:name
 		ADDED from AndroidManifest.xml:49:17
-activity#me.willowcheng.makerthings.ui.OpenHABPreferencesActivity
+activity#me.willowcheng.makerthings.ui.OpenHABMainActivity
 ADDED from AndroidManifest.xml:52:9
 	android:label
 		ADDED from AndroidManifest.xml:54:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:55:13
+	android:theme
+		ADDED from AndroidManifest.xml:56:13
 	android:name
 		ADDED from AndroidManifest.xml:53:13
-activity#me.willowcheng.makerthings.ui.OpenHABMainActivity
-ADDED from AndroidManifest.xml:59:9
-	android:label
-		ADDED from AndroidManifest.xml:61:13
-	android:launchMode
-		ADDED from AndroidManifest.xml:62:13
-	android:theme
-		ADDED from AndroidManifest.xml:63:13
-	android:name
-		ADDED from AndroidManifest.xml:60:13
 intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
-ADDED from AndroidManifest.xml:64:13
+ADDED from AndroidManifest.xml:57:13
 action#android.nfc.action.NDEF_DISCOVERED
-ADDED from AndroidManifest.xml:65:17
+ADDED from AndroidManifest.xml:58:17
 	android:name
-		ADDED from AndroidManifest.xml:65:25
+		ADDED from AndroidManifest.xml:58:25
 category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:59:17
+	android:name
+		ADDED from AndroidManifest.xml:59:27
+data
+ADDED from AndroidManifest.xml:60:17
+	android:scheme
+		ADDED from AndroidManifest.xml:60:23
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:62:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:63:17
+	android:name
+		ADDED from AndroidManifest.xml:63:25
+category#android.intent.category.BROWSABLE
 ADDED from AndroidManifest.xml:66:17
 	android:name
 		ADDED from AndroidManifest.xml:66:27
-data
-ADDED from AndroidManifest.xml:67:17
-	android:scheme
-		ADDED from AndroidManifest.xml:67:23
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:69:13
-action#android.intent.action.VIEW
-ADDED from AndroidManifest.xml:70:17
-	android:name
-		ADDED from AndroidManifest.xml:70:25
-category#android.intent.category.BROWSABLE
-ADDED from AndroidManifest.xml:73:17
-	android:name
-		ADDED from AndroidManifest.xml:73:27
 activity#me.willowcheng.makerthings.ui.OpenHABWriteTagActivity
+ADDED from AndroidManifest.xml:71:9
+	android:label
+		ADDED from AndroidManifest.xml:73:13
+	android:name
+		ADDED from AndroidManifest.xml:72:13
+activity#me.willowcheng.makerthings.ui.OpenHABInfoActivity
 ADDED from AndroidManifest.xml:78:9
 	android:label
 		ADDED from AndroidManifest.xml:80:13
 	android:name
 		ADDED from AndroidManifest.xml:79:13
-activity#me.willowcheng.makerthings.ui.OpenHABInfoActivity
-ADDED from AndroidManifest.xml:85:9
-	android:label
-		ADDED from AndroidManifest.xml:87:13
-	android:name
-		ADDED from AndroidManifest.xml:86:13
 activity#de.duenndns.ssl.MemorizingActivity
-ADDED from AndroidManifest.xml:92:9
+ADDED from AndroidManifest.xml:85:9
 	android:name
-		ADDED from AndroidManifest.xml:92:19
+		ADDED from AndroidManifest.xml:85:19
 service#me.willowcheng.makerthings.core.OpenHABVoiceService
-ADDED from AndroidManifest.xml:94:9
+ADDED from AndroidManifest.xml:87:9
 	android:exported
-		ADDED from AndroidManifest.xml:96:13
+		ADDED from AndroidManifest.xml:89:13
 	android:name
-		ADDED from AndroidManifest.xml:95:13
+		ADDED from AndroidManifest.xml:88:13
 receiver#me.willowcheng.makerthings.core.GcmBroadcastReceiver
-ADDED from AndroidManifest.xml:98:9
+ADDED from AndroidManifest.xml:91:9
 	android:permission
-		ADDED from AndroidManifest.xml:100:13
+		ADDED from AndroidManifest.xml:93:13
 	android:name
-		ADDED from AndroidManifest.xml:99:13
+		ADDED from AndroidManifest.xml:92:13
 intent-filter#com.google.android.c2dm.intent.RECEIVE+me.willowcheng.makerthings
-ADDED from AndroidManifest.xml:101:13
+ADDED from AndroidManifest.xml:94:13
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from AndroidManifest.xml:102:17
+ADDED from AndroidManifest.xml:95:17
 	android:name
-		ADDED from AndroidManifest.xml:102:25
+		ADDED from AndroidManifest.xml:95:25
 category#me.willowcheng.makerthings
-ADDED from AndroidManifest.xml:103:17
+ADDED from AndroidManifest.xml:96:17
 	android:name
-		ADDED from AndroidManifest.xml:103:27
+		ADDED from AndroidManifest.xml:96:27
 receiver#me.willowcheng.makerthings.core.NotificationDeletedBroadcastReceiver
+ADDED from AndroidManifest.xml:99:9
+	android:name
+		ADDED from AndroidManifest.xml:99:19
+intent-filter#me.willowcheng.makerthings+me.willowcheng.makerthings.notification.deleted
+ADDED from AndroidManifest.xml:100:13
+action#me.willowcheng.makerthings.notification.deleted
+ADDED from AndroidManifest.xml:101:17
+	android:name
+		ADDED from AndroidManifest.xml:101:25
+service#me.willowcheng.makerthings.core.GcmIntentService
 ADDED from AndroidManifest.xml:106:9
 	android:name
-		ADDED from AndroidManifest.xml:106:19
-intent-filter#me.willowcheng.makerthings+me.willowcheng.makerthings.notification.deleted
-ADDED from AndroidManifest.xml:107:13
-action#me.willowcheng.makerthings.notification.deleted
-ADDED from AndroidManifest.xml:108:17
-	android:name
-		ADDED from AndroidManifest.xml:108:25
-service#me.willowcheng.makerthings.core.GcmIntentService
-ADDED from AndroidManifest.xml:113:9
-	android:name
-		ADDED from AndroidManifest.xml:113:18
+		ADDED from AndroidManifest.xml:106:18
 receiver#me.willowcheng.makerthings.ui.VoiceWidget
-ADDED from AndroidManifest.xml:114:9
+ADDED from AndroidManifest.xml:107:9
 	android:label
-		ADDED from AndroidManifest.xml:116:13
+		ADDED from AndroidManifest.xml:109:13
 	android:name
-		ADDED from AndroidManifest.xml:115:13
+		ADDED from AndroidManifest.xml:108:13
 intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:117:13
+ADDED from AndroidManifest.xml:110:13
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:118:17
+ADDED from AndroidManifest.xml:111:17
 	android:name
-		ADDED from AndroidManifest.xml:118:25
+		ADDED from AndroidManifest.xml:111:25
 meta-data#android.appwidget.provider
-ADDED from AndroidManifest.xml:120:13
+ADDED from AndroidManifest.xml:113:13
 	android:resource
-		ADDED from AndroidManifest.xml:122:17
+		ADDED from AndroidManifest.xml:115:17
 	android:name
-		ADDED from AndroidManifest.xml:121:17
+		ADDED from AndroidManifest.xml:114:17
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:multidex:1.0.1:18:5
 MERGED from com.google.android.gms:play-services:6.5.87:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.android.support:appcompat-v7:22.2.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
 MERGED from com.github.shell-software:fab:1.1.0:25:5
 MERGED from com.github.shell-software:viewmover:1.0.1:25:5
 MERGED from com.github.shell-software:uitools:1.0.0:25:5
 MERGED from com.android.support:cardview-v7:21.0.2:15:5
-MERGED from com.rengwuxian.materialedittext:library:2.1.4:6:5
-MERGED from com.android.support:appcompat-v7:22.2.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
 MERGED from com.github.navasmdc:MaterialDesign:1.5:7:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0

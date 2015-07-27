@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <gradient android:angle="90" android:startColor="#242f35" android:endColor="#1b2328"/>
-</shape>
-<!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/drawable/material_divider_dark.xml -->

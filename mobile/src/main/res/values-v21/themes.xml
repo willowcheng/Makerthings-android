@@ -27,7 +27,7 @@
     </style>
 
     <!-- Splash screen application theme. -->
-    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light">
         <!-- Here we setting appcompat’s actionBarStyle -->
         <item name="windowActionBar">false</item>
 

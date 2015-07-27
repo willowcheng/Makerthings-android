@@ -39,30 +39,17 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="48dp"
         android:id="@+id/linearLayout_login"
-        android:orientation="vertical"
-        android:visibility="invisible">
+        android:orientation="vertical">
 
-        <com.rengwuxian.materialedittext.MaterialEditText
-            android:id="@+id/email_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center"
-            android:ems="10"
-            android:hint="Email"
-            android:inputType="textEmailAddress" />
-
-        <com.rengwuxian.materialedittext.MaterialEditText
-            android:id="@+id/password_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center"
-            android:ems="10"
-            android:hint="Password"
-            android:inputType="textPassword" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:textColor="#DE000000"
+            android:textAlignment="center" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -71,22 +58,12 @@
             android:layout_height="wrap_content">
 
             <com.gc.materialdesign.views.ButtonRectangle
-                android:id="@+id/btn_login"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:background="#727272"
-                android:text="LOG IN"
-                android:layout_marginRight="24dp"
-                android:onClick="logIn"
-                android:textColor="#FFF" />
-
-            <com.gc.materialdesign.views.ButtonRectangle
-                android:layout_toRightOf="@id/btn_login"
+                android:id="@+id/btn_start"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:background="#F44336"
-                android:text="SIGN UP"
-                android:onClick="signUp"
+                android:text="START"
+                android:onClick="start"
                 android:textColor="#FFF" />
 
         </RelativeLayout>

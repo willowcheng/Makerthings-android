@@ -26,7 +26,7 @@
 
     <item
         android:id="@+id/mainmenu_signout"
-        android:title="Sign Out" />
+        android:title="Select server" />
 
     <item
         android:id="@+id/mainmenu_openhab_info"
