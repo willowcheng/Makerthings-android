@@ -3,23 +3,20 @@ package me.willowcheng.makerthings.ui;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.TextView;
 
+import com.gc.materialdesign.views.ProgressBarCircularIndeterminate;
 import com.parse.FindCallback;
 import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,11 +34,15 @@ public class SplashScreen extends Activity {
     private static int SPLASH_TIME_OUT = 1000;
     private String defaultURL;
     private List<ParseObject> serverList;
+    private ProgressBarCircularIndeterminate mProgressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        mProgressBar = (ProgressBarCircularIndeterminate) findViewById(R.id.progressBarCircularIndeterminate);
+        mProgressBar.setVisibility(View.VISIBLE);
+        mProgressBar.setEnabled(true);
 
         perPreferences = getSharedPreferences("local", MODE_PRIVATE);
 
@@ -59,6 +60,7 @@ public class SplashScreen extends Activity {
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Server");
         query.findInBackground(new FindCallback<ParseObject>() {
             public void done(List<ParseObject> parseObjectList, ParseException e) {
+
                 if (e == null) {
                     serverList = parseObjectList;
                     Log.d(TAG, "Retrieved " + serverList.size() + " items");
@@ -83,7 +85,6 @@ public class SplashScreen extends Activity {
                         mSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                             @Override
                             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-//                                ((TextView) parent.getChildAt(0)).setTextColor(getResources().getColor(R.color.text_primary));
                                 defaultURL = serverList.get(position).getString("URL");
                                 Log.d(TAG, "Choosed " + defaultURL);
 
@@ -105,6 +106,7 @@ public class SplashScreen extends Activity {
                 } else {
                     Log.d(TAG, "Error: " + e.getMessage());
                 }
+                mProgressBar.setVisibility(View.INVISIBLE);
             }
         });
 

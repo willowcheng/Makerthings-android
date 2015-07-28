@@ -49,7 +49,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/title_makerthings"
                         android:layout_marginLeft="16dp"
-                        android:text="Version 0.8"
+                        android:text="Version 1.0"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textIsSelectable="true"
                         android:textSize="14sp" />

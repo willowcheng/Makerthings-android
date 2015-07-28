@@ -33,42 +33,53 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <LinearLayout
+
+    <RelativeLayout
+        android:id="@+id/linearLayout_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="48dp"
-        android:id="@+id/linearLayout_login"
-        android:orientation="vertical">
-
-        <Spinner
-            android:id="@+id/spinner"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:gravity="center"
-            android:textColor="#DE000000"
-            android:textAlignment="center" />
+        android:visibility="invisible">
 
         <RelativeLayout
+            android:id="@+id/bottom_relativeLayout"
             android:layout_width="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="8dp"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
 
             <com.gc.materialdesign.views.ButtonRectangle
                 android:id="@+id/btn_start"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
                 android:background="#F44336"
-                android:text="START"
                 android:onClick="start"
+                android:text="START"
                 android:textColor="#FFF" />
 
         </RelativeLayout>
 
-    </LinearLayout>
 
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_above="@id/bottom_relativeLayout"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textAlignment="center"
+            android:textColor="#DE000000" />
+
+    </RelativeLayout>
+
+    <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+        android:id="@+id/progressBarCircularIndeterminate"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/linearLayout"
+        android:background="@color/theme_accent" />
 
 </RelativeLayout><!-- From: file:/Users/willowcheng/Development/AndroidStudio/Makerthings/mobile/src/main/res/layout/activity_splash.xml -->
