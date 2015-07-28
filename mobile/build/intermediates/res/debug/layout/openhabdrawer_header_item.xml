@@ -6,7 +6,8 @@
     android:minHeight="48dp"
     android:orientation="vertical"
     android:paddingLeft="@dimen/widgetlist_item_left_margin"
-    android:paddingRight="@dimen/widgetlist_item_right_margin">
+    android:paddingRight="@dimen/widgetlist_item_right_margin"
+    android:clickable="true">
 
     <ImageView
         android:layout_width="match_parent"
@@ -14,11 +15,13 @@
         android:background="@drawable/pic_nav_header" />
 
     <RelativeLayout
+        android:id="@+id/sitemap_relativeLayout"
         android:layout_width="fill_parent"
         android:layout_height="48dp"
         android:layout_gravity="center_vertical"
         android:layout_marginTop="8dp"
         android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
         android:minHeight="48dp">
 
         <ImageView
