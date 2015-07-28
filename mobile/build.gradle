@@ -8,8 +8,8 @@ android {
         applicationId "me.willowcheng.makerthings"
         minSdkVersion 16
         targetSdkVersion 21
-        versionCode 2
-        versionName "0.9"
+        versionCode 3
+        versionName "0.91"
         multiDexEnabled true
     }
     buildTypes {

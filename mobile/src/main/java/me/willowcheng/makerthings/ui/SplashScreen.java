@@ -85,7 +85,7 @@ public class SplashScreen extends Activity {
                         mSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                             @Override
                             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                                defaultURL = serverList.get(position).getString("URL");
+                                defaultURL = serverList.get(position).getString("URL") + "/";
                                 Log.d(TAG, "Choosed " + defaultURL);
 
                             }
